@@ -1,0 +1,246 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\wilso> activate py35
+
+(py35) C:\Users\wilso> cd:spark
+The filename, directory name, or volume label syntax is incorrect.
+
+(py35) C:\Users\wilso>cd c:\spark
+
+(py35) c:\spark>pyspark
+Python 3.5.3 |Continuum Analytics, Inc.| (default, Feb 22 2017, 21:28:42) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/03/09 15:31:54 INFO SparkContext: Running Spark version 1.6.3
+17/03/09 15:31:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/03/09 15:31:55 INFO SecurityManager: Changing view acls to: wilso
+17/03/09 15:31:55 INFO SecurityManager: Changing modify acls to: wilso
+17/03/09 15:31:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(wilso); users with modify permissions: Set(wilso)
+17/03/09 15:31:55 INFO Utils: Successfully started service 'sparkDriver' on port 52806.
+17/03/09 15:31:56 INFO Slf4jLogger: Slf4jLogger started
+17/03/09 15:31:56 INFO Remoting: Starting remoting
+17/03/09 15:31:56 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@10.37.219.180:52819]
+17/03/09 15:31:56 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 52819.
+17/03/09 15:31:56 INFO SparkEnv: Registering MapOutputTracker
+17/03/09 15:31:56 INFO SparkEnv: Registering BlockManagerMaster
+17/03/09 15:31:56 INFO DiskBlockManager: Created local directory at C:\Users\wilso\AppData\Local\Temp\blockmgr-766051dc-db85-456e-9473-e21030e5990c
+17/03/09 15:31:56 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/03/09 15:31:56 INFO SparkEnv: Registering OutputCommitCoordinator
+17/03/09 15:31:56 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+17/03/09 15:31:56 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+17/03/09 15:31:56 INFO SparkUI: Started SparkUI at http://10.37.219.180:4041
+17/03/09 15:31:57 INFO Executor: Starting executor ID driver on host localhost
+17/03/09 15:31:57 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52838.
+17/03/09 15:31:57 INFO NettyBlockTransferService: Server created on 52838
+17/03/09 15:31:57 INFO BlockManagerMaster: Trying to register BlockManager
+17/03/09 15:31:57 INFO BlockManagerMasterEndpoint: Registering block manager localhost:52838 with 511.1 MB RAM, BlockManagerId(driver, localhost, 52838)
+17/03/09 15:31:57 INFO BlockManagerMaster: Registered BlockManager
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 1.6.3
+      /_/
+
+Using Python version 3.5.3 (default, Feb 22 2017 21:28:42)
+SparkContext available as sc, HiveContext available as sqlContext.
+>>> exit()
+17/03/09 15:32:02 INFO SparkUI: Stopped Spark web UI at http://10.37.219.180:4041
+17/03/09 15:32:02 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/03/09 15:32:02 INFO MemoryStore: MemoryStore cleared
+17/03/09 15:32:02 INFO BlockManager: BlockManager stopped
+17/03/09 15:32:02 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/03/09 15:32:02 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/03/09 15:32:02 INFO SparkContext: Successfully stopped SparkContext
+17/03/09 15:32:02 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/03/09 15:32:02 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/03/09 15:32:02 INFO ShutdownHookManager: Shutdown hook called
+17/03/09 15:32:02 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/03/09 15:32:02 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-84f02484-d824-421b-a6a0-def99563410d
+17/03/09 15:32:02 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-84f02484-d824-421b-a6a0-def99563410d\pyspark-6bf71564-19f8-4093-848b-9e7e9eabd949
+
+(py35) c:\spark>SUCCESS: The process with PID 12292 (child process of PID 13376) has been terminated.
+SUCCESS: The process with PID 13376 (child process of PID 13828) has been terminated.
+SUCCESS: The process with PID 13828 (child process of PID 11308) has been terminated.
+
+
+(py35) c:\spark> spark-submit C:\spark\examples\src\main\python\pi.py 10
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/03/09 15:32:49 INFO SparkContext: Running Spark version 1.6.3
+17/03/09 15:32:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/03/09 15:32:49 INFO SecurityManager: Changing view acls to: wilso
+17/03/09 15:32:49 INFO SecurityManager: Changing modify acls to: wilso
+17/03/09 15:32:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(wilso); users with modify permissions: Set(wilso)
+17/03/09 15:32:50 INFO Utils: Successfully started service 'sparkDriver' on port 52861.
+17/03/09 15:32:50 INFO Slf4jLogger: Slf4jLogger started
+17/03/09 15:32:50 INFO Remoting: Starting remoting
+17/03/09 15:32:50 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@10.37.219.180:52874]
+17/03/09 15:32:50 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 52874.
+17/03/09 15:32:50 INFO SparkEnv: Registering MapOutputTracker
+17/03/09 15:32:50 INFO SparkEnv: Registering BlockManagerMaster
+17/03/09 15:32:50 INFO DiskBlockManager: Created local directory at C:\Users\wilso\AppData\Local\Temp\blockmgr-7df377c8-3cd9-4352-9d15-a6ce8e5dddeb
+17/03/09 15:32:50 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/03/09 15:32:50 INFO SparkEnv: Registering OutputCommitCoordinator
+17/03/09 15:32:50 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+17/03/09 15:32:51 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+17/03/09 15:32:51 INFO SparkUI: Started SparkUI at http://10.37.219.180:4041
+17/03/09 15:32:51 INFO Utils: Copying C:\spark\examples\src\main\python\pi.py to C:\Users\wilso\AppData\Local\Temp\spark-2e9e8919-b46f-405a-85b3-7fb5d6066839\userFiles-2776e3b8-ed0c-44fe-a6ad-0eb1d29e85af\pi.py
+17/03/09 15:32:53 INFO SparkContext: Added file file:/C:/spark/examples/src/main/python/pi.py at file:/C:/spark/examples/src/main/python/pi.py with timestamp 1489091571408
+17/03/09 15:32:53 INFO Executor: Starting executor ID driver on host localhost
+17/03/09 15:32:53 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52894.
+17/03/09 15:32:53 INFO NettyBlockTransferService: Server created on 52894
+17/03/09 15:32:53 INFO BlockManagerMaster: Trying to register BlockManager
+17/03/09 15:32:53 INFO BlockManagerMasterEndpoint: Registering block manager localhost:52894 with 511.1 MB RAM, BlockManagerId(driver, localhost, 52894)
+17/03/09 15:32:53 INFO BlockManagerMaster: Registered BlockManager
+17/03/09 15:32:53 INFO SparkContext: Starting job: reduce at C:/spark/examples/src/main/python/pi.py:39
+17/03/09 15:32:53 INFO DAGScheduler: Got job 0 (reduce at C:/spark/examples/src/main/python/pi.py:39) with 10 output partitions
+17/03/09 15:32:53 INFO DAGScheduler: Final stage: ResultStage 0 (reduce at C:/spark/examples/src/main/python/pi.py:39)
+17/03/09 15:32:53 INFO DAGScheduler: Parents of final stage: List()
+17/03/09 15:32:53 INFO DAGScheduler: Missing parents: List()
+17/03/09 15:32:53 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at reduce at C:/spark/examples/src/main/python/pi.py:39), which has no missing parents
+17/03/09 15:32:54 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 4.6 KB, free 511.1 MB)
+17/03/09 15:32:54 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.2 KB, free 511.1 MB)
+17/03/09 15:32:54 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:52894 (size: 3.2 KB, free: 511.1 MB)
+17/03/09 15:32:54 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/03/09 15:32:54 INFO DAGScheduler: Submitting 10 missing tasks from ResultStage 0 (PythonRDD[1] at reduce at C:/spark/examples/src/main/python/pi.py:39)
+17/03/09 15:32:54 INFO TaskSchedulerImpl: Adding task set 0.0 with 10 tasks
+17/03/09 15:32:54 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:54 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, partition 1,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:54 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, localhost, partition 2,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:54 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, localhost, partition 3,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:54 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/03/09 15:32:54 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+17/03/09 15:32:54 INFO Executor: Running task 3.0 in stage 0.0 (TID 3)
+17/03/09 15:32:54 INFO Executor: Running task 2.0 in stage 0.0 (TID 2)
+17/03/09 15:32:54 INFO Executor: Fetching file:/C:/spark/examples/src/main/python/pi.py with timestamp 1489091571408
+17/03/09 15:32:54 INFO Utils: C:\spark\examples\src\main\python\pi.py has been previously copied to C:\Users\wilso\AppData\Local\Temp\spark-2e9e8919-b46f-405a-85b3-7fb5d6066839\userFiles-2776e3b8-ed0c-44fe-a6ad-0eb1d29e85af\pi.py
+17/03/09 15:32:54 INFO PythonRunner: Times: total = 576, boot = 413, init = 9, finish = 154
+17/03/09 15:32:55 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 998 bytes result sent to driver
+17/03/09 15:32:55 INFO TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, localhost, partition 4,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:55 INFO Executor: Running task 4.0 in stage 0.0 (TID 4)
+17/03/09 15:32:55 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 821 ms on localhost (1/10)
+17/03/09 15:32:55 INFO PythonRunner: Times: total = 1006, boot = 855, init = 2, finish = 149
+17/03/09 15:32:55 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 998 bytes result sent to driver
+17/03/09 15:32:55 INFO TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, localhost, partition 5,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:55 INFO Executor: Running task 5.0 in stage 0.0 (TID 5)
+17/03/09 15:32:55 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1252 ms on localhost (2/10)
+17/03/09 15:32:55 INFO PythonRunner: Times: total = 1431, boot = 1277, init = 2, finish = 152
+17/03/09 15:32:55 INFO Executor: Finished task 2.0 in stage 0.0 (TID 2). 998 bytes result sent to driver
+17/03/09 15:32:55 INFO TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, localhost, partition 6,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:55 INFO Executor: Running task 6.0 in stage 0.0 (TID 6)
+17/03/09 15:32:55 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 1659 ms on localhost (3/10)
+17/03/09 15:32:56 INFO PythonRunner: Times: total = 1848, boot = 1704, init = 2, finish = 142
+17/03/09 15:32:56 INFO Executor: Finished task 3.0 in stage 0.0 (TID 3). 998 bytes result sent to driver
+17/03/09 15:32:56 INFO TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, localhost, partition 7,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:56 INFO Executor: Running task 7.0 in stage 0.0 (TID 7)
+17/03/09 15:32:56 INFO TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 2063 ms on localhost (4/10)
+17/03/09 15:32:56 INFO PythonRunner: Times: total = 811, boot = 665, init = 2, finish = 144
+17/03/09 15:32:56 INFO Executor: Finished task 6.0 in stage 0.0 (TID 6). 998 bytes result sent to driver
+17/03/09 15:32:56 INFO TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, localhost, partition 8,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:56 INFO Executor: Running task 8.0 in stage 0.0 (TID 8)
+17/03/09 15:32:56 INFO TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 834 ms on localhost (5/10)
+17/03/09 15:32:57 INFO PythonRunner: Times: total = 1657, boot = 1503, init = 2, finish = 152
+17/03/09 15:32:57 INFO Executor: Finished task 5.0 in stage 0.0 (TID 5). 998 bytes result sent to driver
+17/03/09 15:32:57 INFO TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, localhost, partition 9,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:32:57 INFO Executor: Running task 9.0 in stage 0.0 (TID 9)
+17/03/09 15:32:57 INFO TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 1678 ms on localhost (6/10)
+17/03/09 15:32:57 INFO PythonRunner: Times: total = 2462, boot = 2320, init = 2, finish = 140
+17/03/09 15:32:57 INFO Executor: Finished task 4.0 in stage 0.0 (TID 4). 998 bytes result sent to driver
+17/03/09 15:32:57 INFO TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 2491 ms on localhost (7/10)
+17/03/09 15:32:57 INFO PythonRunner: Times: total = 797, boot = 652, init = 2, finish = 143
+17/03/09 15:32:57 INFO Executor: Finished task 9.0 in stage 0.0 (TID 9). 998 bytes result sent to driver
+17/03/09 15:32:57 INFO TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 815 ms on localhost (8/10)
+17/03/09 15:32:58 INFO PythonRunner: Times: total = 1612, boot = 1475, init = 2, finish = 135
+17/03/09 15:32:58 INFO Executor: Finished task 8.0 in stage 0.0 (TID 8). 998 bytes result sent to driver
+17/03/09 15:32:58 INFO TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 1639 ms on localhost (9/10)
+17/03/09 15:32:58 INFO PythonRunner: Times: total = 2431, boot = 2301, init = 2, finish = 128
+17/03/09 15:32:58 INFO Executor: Finished task 7.0 in stage 0.0 (TID 7). 998 bytes result sent to driver
+17/03/09 15:32:58 INFO TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 2448 ms on localhost (10/10)
+17/03/09 15:32:58 INFO DAGScheduler: ResultStage 0 (reduce at C:/spark/examples/src/main/python/pi.py:39) finished in 4.550 s
+17/03/09 15:32:58 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+17/03/09 15:32:58 INFO DAGScheduler: Job 0 finished: reduce at C:/spark/examples/src/main/python/pi.py:39, took 4.875869 s
+Pi is roughly 3.140948
+17/03/09 15:32:59 INFO SparkUI: Stopped Spark web UI at http://10.37.219.180:4041
+17/03/09 15:32:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/03/09 15:32:59 INFO MemoryStore: MemoryStore cleared
+17/03/09 15:32:59 INFO BlockManager: BlockManager stopped
+17/03/09 15:32:59 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/03/09 15:32:59 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/03/09 15:32:59 INFO SparkContext: Successfully stopped SparkContext
+17/03/09 15:32:59 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/03/09 15:32:59 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/03/09 15:32:59 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/03/09 15:33:00 INFO ShutdownHookManager: Shutdown hook called
+17/03/09 15:33:00 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-2e9e8919-b46f-405a-85b3-7fb5d6066839\pyspark-13f42df4-2d6c-46e6-bca6-8870f61ae0b6
+17/03/09 15:33:00 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-2e9e8919-b46f-405a-85b3-7fb5d6066839
+
+(py35) c:\spark> spark-submit C:\spark\examples\src\main\python\pi.py
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/03/09 15:33:19 INFO SparkContext: Running Spark version 1.6.3
+17/03/09 15:33:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/03/09 15:33:20 INFO SecurityManager: Changing view acls to: wilso
+17/03/09 15:33:20 INFO SecurityManager: Changing modify acls to: wilso
+17/03/09 15:33:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(wilso); users with modify permissions: Set(wilso)
+17/03/09 15:33:20 INFO Utils: Successfully started service 'sparkDriver' on port 52940.
+17/03/09 15:33:20 INFO Slf4jLogger: Slf4jLogger started
+17/03/09 15:33:20 INFO Remoting: Starting remoting
+17/03/09 15:33:21 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@10.37.219.180:52953]
+17/03/09 15:33:21 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 52953.
+17/03/09 15:33:21 INFO SparkEnv: Registering MapOutputTracker
+17/03/09 15:33:21 INFO SparkEnv: Registering BlockManagerMaster
+17/03/09 15:33:21 INFO DiskBlockManager: Created local directory at C:\Users\wilso\AppData\Local\Temp\blockmgr-1740ec54-8675-460b-b2e5-11e9225a29b4
+17/03/09 15:33:21 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/03/09 15:33:21 INFO SparkEnv: Registering OutputCommitCoordinator
+17/03/09 15:33:21 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+17/03/09 15:33:21 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+17/03/09 15:33:21 INFO SparkUI: Started SparkUI at http://10.37.219.180:4041
+17/03/09 15:33:21 INFO Utils: Copying C:\spark\examples\src\main\python\pi.py to C:\Users\wilso\AppData\Local\Temp\spark-6f4d87fb-e590-43b7-b3a4-1b61e95c10e9\userFiles-a67da309-5aa8-4dd3-9a4f-05216aaee577\pi.py
+17/03/09 15:33:21 INFO SparkContext: Added file file:/C:/spark/examples/src/main/python/pi.py at file:/C:/spark/examples/src/main/python/pi.py with timestamp 1489091601541
+17/03/09 15:33:21 INFO Executor: Starting executor ID driver on host localhost
+17/03/09 15:33:21 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52972.
+17/03/09 15:33:21 INFO NettyBlockTransferService: Server created on 52972
+17/03/09 15:33:21 INFO BlockManagerMaster: Trying to register BlockManager
+17/03/09 15:33:21 INFO BlockManagerMasterEndpoint: Registering block manager localhost:52972 with 511.1 MB RAM, BlockManagerId(driver, localhost, 52972)
+17/03/09 15:33:21 INFO BlockManagerMaster: Registered BlockManager
+17/03/09 15:33:22 INFO SparkContext: Starting job: reduce at C:/spark/examples/src/main/python/pi.py:39
+17/03/09 15:33:22 INFO DAGScheduler: Got job 0 (reduce at C:/spark/examples/src/main/python/pi.py:39) with 2 output partitions
+17/03/09 15:33:22 INFO DAGScheduler: Final stage: ResultStage 0 (reduce at C:/spark/examples/src/main/python/pi.py:39)
+17/03/09 15:33:22 INFO DAGScheduler: Parents of final stage: List()
+17/03/09 15:33:22 INFO DAGScheduler: Missing parents: List()
+17/03/09 15:33:22 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at reduce at C:/spark/examples/src/main/python/pi.py:39), which has no missing parents
+17/03/09 15:33:22 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 4.6 KB, free 511.1 MB)
+17/03/09 15:33:22 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.2 KB, free 511.1 MB)
+17/03/09 15:33:22 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:52972 (size: 3.2 KB, free: 511.1 MB)
+17/03/09 15:33:22 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/03/09 15:33:22 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (PythonRDD[1] at reduce at C:/spark/examples/src/main/python/pi.py:39)
+17/03/09 15:33:22 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+17/03/09 15:33:22 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:33:22 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, partition 1,PROCESS_LOCAL, 2119 bytes)
+17/03/09 15:33:22 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/03/09 15:33:22 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+17/03/09 15:33:22 INFO Executor: Fetching file:/C:/spark/examples/src/main/python/pi.py with timestamp 1489091601541
+17/03/09 15:33:22 INFO Utils: C:\spark\examples\src\main\python\pi.py has been previously copied to C:\Users\wilso\AppData\Local\Temp\spark-6f4d87fb-e590-43b7-b3a4-1b61e95c10e9\userFiles-a67da309-5aa8-4dd3-9a4f-05216aaee577\pi.py
+17/03/09 15:33:23 INFO PythonRunner: Times: total = 649, boot = 481, init = 7, finish = 161
+17/03/09 15:33:23 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 998 bytes result sent to driver
+17/03/09 15:33:23 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 916 ms on localhost (1/2)
+17/03/09 15:33:23 INFO PythonRunner: Times: total = 1049, boot = 917, init = 3, finish = 129
+17/03/09 15:33:23 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 998 bytes result sent to driver
+17/03/09 15:33:23 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 1275 ms on localhost (2/2)
+17/03/09 15:33:23 INFO DAGScheduler: ResultStage 0 (reduce at C:/spark/examples/src/main/python/pi.py:39) finished in 1.311 s
+17/03/09 15:33:23 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+17/03/09 15:33:23 INFO DAGScheduler: Job 0 finished: reduce at C:/spark/examples/src/main/python/pi.py:39, took 1.608578 s
+Pi is roughly 3.144480
+17/03/09 15:33:25 INFO SparkUI: Stopped Spark web UI at http://10.37.219.180:4041
+17/03/09 15:33:25 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/03/09 15:33:25 INFO MemoryStore: MemoryStore cleared
+17/03/09 15:33:25 INFO BlockManager: BlockManager stopped
+17/03/09 15:33:25 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/03/09 15:33:25 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/03/09 15:33:25 INFO SparkContext: Successfully stopped SparkContext
+17/03/09 15:33:25 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/03/09 15:33:25 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/03/09 15:33:25 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/03/09 15:33:26 INFO ShutdownHookManager: Shutdown hook called
+17/03/09 15:33:26 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-6f4d87fb-e590-43b7-b3a4-1b61e95c10e9\pyspark-9f7cfb90-0e36-45d4-b8f6-024c99391505
+17/03/09 15:33:26 INFO ShutdownHookManager: Deleting directory C:\Users\wilso\AppData\Local\Temp\spark-6f4d87fb-e590-43b7-b3a4-1b61e95c10e9

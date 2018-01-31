@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=4:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+cd scratch/shilo.wilson
+
+mpiexec -np 4 python norm1.py signal.txt
+
+

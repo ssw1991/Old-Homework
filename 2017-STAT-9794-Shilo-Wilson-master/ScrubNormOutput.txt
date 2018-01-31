@@ -1,0 +1,1707 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\wilso>mpiexec -np 4 python C:\Users\wilso\Programming_analytics\MPIproject\scrub.py
+Traceback (most recent call last):
+  File "C:\Users\wilso\Programming_analytics\MPIproject\scrub.py", line 32, in <module>
+    f=open(sys.argv[2],'w')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\wilso\Programming_analytics\MPIproject\scrub.py", line 32, in <module>
+    f=open(sys.argv[2],'w')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\wilso\Programming_analytics\MPIproject\scrub.py", line 32, in <module>
+    f=open(sys.argv[2],'w')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\wilso\Programming_analytics\MPIproject\scrub.py", line 32, in <module>
+    f=open(sys.argv[2],'w')
+IndexError: list index out of range
+
+C:\Users\wilso>mpiexec -np 4 python C:\Users\wilso\Programming_analytics\MPIproject\scrub.py C:\Users\wilso\Programming_analytics\MPIproject\data-big.txt signal.txt noise.txt
+0 Time to split file into segments 0:00:00.015626
+3 Time to split file into segments 0:00:00.015626
+1 Time to split file into segments 0:00:00.015626
+2 Time to split file into segments 0:00:00.015626
+2 Time to split segment into blocks 0:00:00.015626
+0 Time to split segment into blocks 0:00:00.015626
+1 Time to split segment into blocks 0:00:00.015626
+3 Time to split segment into blocks 0:00:00.015626
+10000001 1
+1 reading block 1
+10000039 2
+2 reading block 1
+10000017 0
+0 reading block 1
+10000005 3
+3 reading block 1
+2 Reading time 0:00:00
+1 Reading time 0:00:00.015630
+3 Reading time 0:00:00.015630
+0 Reading time 0:00:00.015630
+3 Signal lenght:  251126 Noise length 291 Percent lost 0.0011574396321648894
+1 Signal lenght:  251150 Noise length 287 Percent lost 0.0011414390085786898
+0 Signal lenght:  251075 Noise length 341 Percent lost 0.0013563178158907945
+2 Signal lenght:  251123 Noise length 315 Percent lost 0.0012527939293185597
+0 Processing time 0:00:00.733139
+1 Processing time 0:00:00.734643
+3 Processing time 0:00:00.742167
+2 Processing time 0:00:00.765313
+0 To write Noise 0:00:00.021059
+0 To write signal 0:00:00.036360 Total Block Time 0:00:00.806188
+9999996 0
+0 reading block 2
+0 Reading time 0:00:00.015625
+2 To write Noise 0:00:00.009526
+2 To write signal 0:00:00.046974 Total Block Time 0:00:00.821813
+9999982 2
+2 reading block 2
+3 To write Noise 0:00:00.017042
+3 To write signal 0:00:00.046974 Total Block Time 0:00:00.821813
+10000029 3
+3 reading block 2
+1 To write Noise 0:00:00.024566
+1 To write signal 0:00:00.062605 Total Block Time 0:00:00.837444
+10000022 1
+1 reading block 2
+2 Reading time 0:00:00.015631
+3 Reading time 0:00:00.031256
+1 Reading time 0:00:00.015625
+3 Signal lenght:  251097 Noise length 305 Percent lost 0.0012131963946189768
+2 Signal lenght:  251130 Noise length 299 Percent lost 0.0011892025184047981
+0 Signal lenght:  251112 Noise length 304 Percent lost 0.0012091513666592421
+3 Processing time 0:00:00.797239
+1 Signal lenght:  251132 Noise length 290 Percent lost 0.0011534392376164376
+2 Processing time 0:00:00.844949
+0 Processing time 0:00:00.868602
+1 Processing time 0:00:00.864418
+0 To write Noise 0:00:00.030080
+0 To write signal 0:00:00.029578 Total Block Time 0:00:00.943885
+10000013 0
+0 reading block 3
+2 To write Noise 0:00:00.040111
+2 To write signal 0:00:00.043612 Total Block Time 0:00:00.944303
+9999978 2
+2 reading block 3
+0 Reading time 0:00:00.020054
+3 To write Noise 0:00:00.072196
+3 To write signal 0:00:00.049127 Total Block Time 0:00:00.949818
+9999996 3
+3 reading block 3
+1 To write Noise 0:00:00.005524
+1 To write signal 0:00:00.049121 Total Block Time 0:00:00.934688
+10000004 1
+1 reading block 3
+2 Reading time 0:00:00.024567
+3 Reading time 0:00:00.022058
+1 Reading time 0:00:00.023563
+1 Signal lenght:  251102 Noise length 323 Percent lost 0.0012846773391667495
+3 Signal lenght:  251109 Noise length 314 Percent lost 0.0012488913106597247
+2 Signal lenght:  251082 Noise length 326 Percent lost 0.0012966970024820212
+0 Signal lenght:  251114 Noise length 307 Percent lost 0.0012210594978144227
+3 Processing time 0:00:00.737963
+1 Processing time 0:00:00.737961
+0 Processing time 0:00:00.768542
+2 Processing time 0:00:00.757512
+0 To write Noise 0:00:00.013036
+0 To write signal 0:00:00.036597 Total Block Time 0:00:00.838229
+9999992 0
+0 reading block 4
+1 To write Noise 0:00:00.019052
+1 To write signal 0:00:00.044119 Total Block Time 0:00:00.824695
+10000006 1
+1 reading block 4
+2 To write Noise 0:00:00.004513
+2 To write signal 0:00:00.048628 Total Block Time 0:00:00.835220
+10000013 2
+2 reading block 4
+3 To write Noise 0:00:00.020555
+3 To write signal 0:00:00.053140 Total Block Time 0:00:00.833716
+9999984 3
+3 reading block 4
+0 Reading time 0:00:00.024064
+1 Reading time 0:00:00.028080
+2 Reading time 0:00:00.028075
+3 Reading time 0:00:00.024064
+0 Signal lenght:  251124 Noise length 298 Percent lost 0.0011852582510679256
+1 Signal lenght:  251078 Noise length 344 Percent lost 0.0013682175784139813
+2 Signal lenght:  251113 Noise length 297 Percent lost 0.0011813372578656379
+3 Signal lenght:  251122 Noise length 300 Percent lost 0.0011932130044307976
+0 Processing time 0:00:00.731444
+1 Processing time 0:00:00.723414
+3 Processing time 0:00:00.750496
+2 Processing time 0:00:00.751499
+0 To write Noise 0:00:00.042613
+0 To write signal 0:00:00.033088 Total Block Time 0:00:00.831209
+10000002 0
+0 reading block 5
+1 To write Noise 0:00:00.039105
+1 To write signal 0:00:00.040115 Total Block Time 0:00:00.830714
+9999993 1
+1 reading block 5
+0 Reading time 0:00:00.024565
+3 To write Noise 0:00:00.007520
+3 To write signal 0:00:00.058158 Total Block Time 0:00:00.840238
+9999991 3
+3 reading block 5
+2 To write Noise 0:00:00.006516
+2 To write signal 0:00:00.060661 Total Block Time 0:00:00.846751
+10000011 2
+2 reading block 5
+1 Reading time 0:00:00.022050
+2 Reading time 0:00:00.019051
+3 Reading time 0:00:00.022562
+1 Signal lenght:  251085 Noise length 334 Percent lost 0.0013284596629530784
+3 Signal lenght:  251100 Noise length 320 Percent lost 0.0012727706626362262
+2 Signal lenght:  251106 Noise length 316 Percent lost 0.0012568510313337735
+0 Signal lenght:  251119 Noise length 297 Percent lost 0.0011813090654532728
+1 Processing time 0:00:00.754506
+2 Processing time 0:00:00.755009
+3 Processing time 0:00:00.753002
+0 Processing time 0:00:00.793108
+0 To write Noise 0:00:00.004512
+0 To write signal 0:00:00.033590 Total Block Time 0:00:00.855775
+9999984 0
+0 reading block 6
+1 To write Noise 0:00:00.039104
+1 To write signal 0:00:00.039606 Total Block Time 0:00:00.855266
+9999993 1
+1 reading block 6
+2 To write Noise 0:00:00.021556
+2 To write signal 0:00:00.043616 Total Block Time 0:00:00.839232
+9999983 2
+2 reading block 6
+3 To write Noise 0:00:00.021556
+3 To write signal 0:00:00.048640 Total Block Time 0:00:00.845760
+10000022 3
+3 reading block 6
+0 Reading time 0:00:00.028576
+1 Reading time 0:00:00.025574
+2 Reading time 0:00:00.025066
+3 Reading time 0:00:00.024554
+1 Signal lenght:  251136 Noise length 290 Percent lost 0.0011534208872590742
+3 Signal lenght:  251144 Noise length 280 Percent lost 0.0011136566119383988
+0 Signal lenght:  251101 Noise length 326 Percent lost 0.0012965990128347394
+2 Signal lenght:  251093 Noise length 329 Percent lost 0.0013085569281924413
+1 Processing time 0:00:00.727928
+3 Processing time 0:00:00.728938
+0 Processing time 0:00:00.745483
+2 Processing time 0:00:00.757013
+0 To write Noise 0:00:00.031085
+0 To write signal 0:00:00.039605 Total Block Time 0:00:00.844749
+10000017 0
+0 reading block 7
+2 To write Noise 0:00:00.012533
+2 To write signal 0:00:00.052144 Total Block Time 0:00:00.846756
+9999989 2
+2 reading block 7
+1 To write Noise 0:00:00.045622
+1 To write signal 0:00:00.057152 Total Block Time 0:00:00.856276
+10000007 1
+1 reading block 7
+3 To write Noise 0:00:00.036598
+3 To write signal 0:00:00.057657 Total Block Time 0:00:00.847747
+9999988 3
+3 reading block 7
+0 Reading time 0:00:00.035108
+2 Reading time 0:00:00.023561
+1 Reading time 0:00:00.023059
+3 Reading time 0:00:00.039099
+0 Signal lenght:  251097 Noise length 315 Percent lost 0.001252923488138991
+1 Signal lenght:  251110 Noise length 319 Percent lost 0.001268747837361641
+2 Signal lenght:  251103 Noise length 332 Percent lost 0.001320420784695846
+3 Signal lenght:  251085 Noise length 339 Percent lost 0.0013483199694539901
+0 Processing time 0:00:00.834199
+2 Processing time 0:00:00.863797
+3 Processing time 0:00:00.845247
+1 Processing time 0:00:00.865300
+0 To write Noise 0:00:00.039606
+0 To write signal 0:00:00.034091 Total Block Time 0:00:00.943004
+9999981 0
+0 reading block 8
+1 To write Noise 0:00:00.004012
+1 To write signal 0:00:00.039104 Total Block Time 0:00:00.931475
+9999985 1
+1 reading block 8
+3 To write Noise 0:00:00.006016
+3 To write signal 0:00:00.054648 Total Block Time 0:00:00.945010
+9999987 3
+3 reading block 8
+2 To write Noise 0:00:00.009024
+2 To write signal 0:00:00.059659 Total Block Time 0:00:00.956041
+10000009 2
+2 reading block 8
+1 Reading time 0:00:00.024565
+0 Reading time 0:00:00.038102
+3 Reading time 0:00:00.021558
+2 Reading time 0:00:00.020053
+0 Signal lenght:  251125 Noise length 294 Percent lost 0.0011693626973299552
+3 Signal lenght:  251078 Noise length 342 Percent lost 0.001360273645692467
+2 Signal lenght:  251137 Noise length 299 Percent lost 0.0011891694109037688
+1 Signal lenght:  251122 Noise length 297 Percent lost 0.0011812949697516894
+0 Processing time 0:00:00.741472
+3 Processing time 0:00:00.756511
+2 Processing time 0:00:00.757513
+1 Processing time 0:00:00.774559
+0 To write Noise 0:00:00.029577
+0 To write signal 0:00:00.033589 Total Block Time 0:00:00.842740
+10000000 0
+0 reading block 9
+1 To write Noise 0:00:00.005014
+1 To write signal 0:00:00.038102 Total Block Time 0:00:00.842240
+10000003 1
+1 reading block 9
+2 To write Noise 0:00:00.007020
+2 To write signal 0:00:00.045119 Total Block Time 0:00:00.829705
+9999997 2
+2 reading block 9
+3 To write Noise 0:00:00.011030
+3 To write signal 0:00:00.051637 Total Block Time 0:00:00.840736
+10000003 3
+3 reading block 9
+0 Reading time 0:00:00.023061
+1 Reading time 0:00:00.027067
+3 Reading time 0:00:00.023060
+2 Reading time 0:00:00.031582
+0 Signal lenght:  251051 Noise length 370 Percent lost 0.001471635225378946
+1 Signal lenght:  251114 Noise length 311 Percent lost 0.001236949388485632
+3 Signal lenght:  251143 Noise length 265 Percent lost 0.0010540635142875325
+2 Signal lenght:  251104 Noise length 307 Percent lost 0.0012211080660750723
+0 Processing time 0:00:00.735956
+1 Processing time 0:00:00.743977
+3 Processing time 0:00:00.739466
+2 Processing time 0:00:00.745982
+0 To write Noise 0:00:00.037099
+0 To write signal 0:00:00.040106 Total Block Time 0:00:00.836222
+9999996 0
+0 reading block 10
+1 To write Noise 0:00:00.020054
+1 To write signal 0:00:00.045623 Total Block Time 0:00:00.837226
+9999989 1
+1 reading block 10
+2 To write Noise 0:00:00.006518
+2 To write signal 0:00:00.051138 Total Block Time 0:00:00.835220
+10000026 2
+2 reading block 10
+3 To write Noise 0:00:00.015542
+3 To write signal 0:00:00.057153 Total Block Time 0:00:00.835221
+9999996 3
+3 reading block 10
+0 Reading time 0:00:00.022060
+1 Reading time 0:00:00.027068
+3 Reading time 0:00:00.022058
+2 Reading time 0:00:00.031084
+0 Signal lenght:  251119 Noise length 303 Percent lost 0.0012051451344751057
+1 Signal lenght:  251126 Noise length 302 Percent lost 0.0012011390934979398
+3 Signal lenght:  251117 Noise length 307 Percent lost 0.0012210449280896016
+2 Signal lenght:  251118 Noise length 297 Percent lost 0.0011813137640952211
+0 Processing time 0:00:00.813160
+3 Processing time 0:00:00.842238
+1 Processing time 0:00:00.847754
+2 Processing time 0:00:00.854768
+0 To write Noise 0:00:00.071696
+0 To write signal 0:00:00.030167 Total Block Time 0:00:00.937083
+10000015 0
+0 reading block 11
+0 Reading time 0:00:00.015541
+3 To write Noise 0:00:00.026572
+3 To write signal 0:00:00.059748 Total Block Time 0:00:00.950616
+10000024 3
+3 reading block 11
+1 To write Noise 0:00:00.026572
+1 To write signal 0:00:00.075290 Total Block Time 0:00:00.977184
+10000005 1
+1 reading block 11
+2 To write Noise 0:00:00.011031
+2 To write signal 0:00:00.076292 Total Block Time 0:00:00.973175
+9999999 2
+2 reading block 11
+3 Reading time 0:00:00.025568
+2 Reading time 0:00:00.019552
+1 Reading time 0:00:00.022561
+2 Signal lenght:  251145 Noise length 280 Percent lost 0.0011136521825594113
+0 Signal lenght:  251142 Noise length 286 Percent lost 0.0011375025852331483
+3 Signal lenght:  251131 Noise length 300 Percent lost 0.0011931702932414857
+1 Signal lenght:  251117 Noise length 309 Percent lost 0.0012289898419415653
+2 Processing time 0:00:00.854774
+0 Processing time 0:00:00.922454
+3 Processing time 0:00:00.897386
+1 Processing time 0:00:00.905406
+0 To write Noise 0:00:00.049129
+0 To write signal 0:00:00.056651 Total Block Time 0:00:01.043775
+10000010 0
+0 reading block 12
+1 To write Noise 0:00:00.024565
+1 To write signal 0:00:00.049130 Total Block Time 0:00:01.001662
+9999984 1
+1 reading block 12
+2 To write Noise 0:00:00.065173
+2 To write signal 0:00:00.067178 Total Block Time 0:00:01.006677
+10000001 2
+2 reading block 12
+3 To write Noise 0:00:00.032587
+3 To write signal 0:00:00.071690 Total Block Time 0:00:01.027231
+9999982 3
+3 reading block 12
+2 Reading time 0:00:00.018554
+1 Reading time 0:00:00.022061
+0 Reading time 0:00:00.041110
+3 Reading time 0:00:00.048138
+0 Signal lenght:  251116 Noise length 316 Percent lost 0.0012568010436221325
+1 Signal lenght:  251151 Noise length 287 Percent lost 0.0011414344689346877
+2 Signal lenght:  251131 Noise length 289 Percent lost 0.0011494710046933419
+3 Signal lenght:  251092 Noise length 312 Percent lost 0.0012410303734228573
+0 Processing time 0:00:00.874323
+1 Processing time 0:00:00.917438
+2 Processing time 0:00:00.931974
+3 Processing time 0:00:00.901386
+0 To write Noise 0:00:00.052640
+0 To write signal 0:00:00.033088 Total Block Time 0:00:01.001161
+10000001 0
+0 reading block 13
+1 To write Noise 0:00:00.024565
+1 To write signal 0:00:00.039105 Total Block Time 0:00:01.003169
+10000019 1
+1 reading block 13
+2 To write Noise 0:00:00.007519
+2 To write signal 0:00:00.045621 Total Block Time 0:00:01.003668
+9999986 2
+2 reading block 13
+3 To write Noise 0:00:00.003510
+3 To write signal 0:00:00.050133 Total Block Time 0:00:01.003167
+9999987 3
+3 reading block 13
+0 Reading time 0:00:00.023063
+1 Reading time 0:00:00.025065
+3 Reading time 0:00:00.026571
+2 Reading time 0:00:00.033088
+1 Signal lenght:  251092 Noise length 329 Percent lost 0.0013085621328369549
+0 Signal lenght:  251130 Noise length 291 Percent lost 0.001157421217798036
+3 Signal lenght:  251101 Noise length 324 Percent lost 0.001288654668390176
+2 Signal lenght:  251082 Noise length 329 Percent lost 0.0013086141815592794
+1 Processing time 0:00:00.823690
+3 Processing time 0:00:00.833716
+0 Processing time 0:00:00.862290
+2 Processing time 0:00:00.846751
+0 To write Noise 0:00:00.011532
+0 To write signal 0:00:00.036596 Total Block Time 0:00:00.933481
+9999968 0
+0 reading block 14
+1 To write Noise 0:00:00.042112
+1 To write signal 0:00:00.042616 Total Block Time 0:00:00.933483
+9999999 1
+1 reading block 14
+2 To write Noise 0:00:00.004512
+2 To write signal 0:00:00.048630 Total Block Time 0:00:00.932981
+9999979 2
+2 reading block 14
+3 To write Noise 0:00:00.019553
+3 To write signal 0:00:00.057152 Total Block Time 0:00:00.936992
+10000004 3
+3 reading block 14
+0 Reading time 0:00:00.027073
+1 Reading time 0:00:00.024562
+2 Reading time 0:00:00.022560
+3 Reading time 0:00:00.023061
+3 Signal lenght:  251113 Noise length 306 Percent lost 0.0012170917870168922
+2 Signal lenght:  251111 Noise length 308 Percent lost 0.0012250466352980484
+0 Signal lenght:  251135 Noise length 279 Percent lost 0.0011097234044245745
+1 Signal lenght:  251148 Noise length 280 Percent lost 0.0011136388946338515
+2 Processing time 0:00:00.913929
+3 Processing time 0:00:00.916937
+0 Processing time 0:00:00.941001
+1 Processing time 0:00:00.939999
+0 To write Noise 0:00:00.016544
+0 To write signal 0:00:00.054145 Total Block Time 0:00:01.038763
+9999999 0
+0 reading block 15
+1 To write Noise 0:00:00.021562
+1 To write signal 0:00:00.051638 Total Block Time 0:00:01.037761
+9999997 1
+1 reading block 15
+2 To write Noise 0:00:00.037099
+2 To write signal 0:00:00.066175 Total Block Time 0:00:01.040264
+10000000 2
+2 reading block 15
+3 To write Noise 0:00:00.023061
+3 To write signal 0:00:00.075200 Total Block Time 0:00:01.038259
+9999997 3
+3 reading block 15
+0 Reading time 0:00:00.023060
+1 Reading time 0:00:00.030075
+3 Reading time 0:00:00.021057
+2 Reading time 0:00:00.030080
+1 Signal lenght:  251104 Noise length 310 Percent lost 0.001233026004916194
+2 Signal lenght:  251120 Noise length 315 Percent lost 0.0012528088770457574
+0 Signal lenght:  251135 Noise length 283 Percent lost 0.0011256155088338942
+3 Signal lenght:  251096 Noise length 319 Percent lost 0.0012688184873615336
+2 Processing time 0:00:00.814666
+1 Processing time 0:00:00.835721
+0 Processing time 0:00:00.874826
+3 Processing time 0:00:00.873822
+0 To write Noise 0:00:00.025067
+0 To write signal 0:00:00.055146 Total Block Time 0:00:00.978099
+10000014 0
+0 reading block 16
+1 To write Noise 0:00:00.067179
+1 To write signal 0:00:00.044117 Total Block Time 0:00:00.977092
+9999992 1
+1 reading block 16
+2 To write Noise 0:00:00.064672
+2 To write signal 0:00:00.063670 Total Block Time 0:00:00.973088
+10000000 2
+2 reading block 16
+3 To write Noise 0:00:00.007520
+3 To write signal 0:00:00.068182 Total Block Time 0:00:00.970581
+10000002 3
+3 reading block 16
+2 Reading time 0:00:00.022560
+1 Reading time 0:00:00.034092
+3 Reading time 0:00:00.031083
+0 Reading time 0:00:00.095755
+1 Signal lenght:  251120 Noise length 312 Percent lost 0.001240892169652232
+2 Signal lenght:  251144 Noise length 279 Percent lost 0.0011096836804906473
+3 Signal lenght:  251136 Noise length 295 Percent lost 0.001173284121687461
+0 Signal lenght:  251112 Noise length 320 Percent lost 0.0012727099175920329
+2 Processing time 0:00:00.855775
+1 Processing time 0:00:00.854771
+3 Processing time 0:00:00.859787
+0 Processing time 0:00:00.838730
+0 To write Noise 0:00:00.024564
+0 To write signal 0:00:00.062667 Total Block Time 0:00:01.021716
+9999988 0
+0 reading block 17
+1 To write Noise 0:00:00.066176
+1 To write signal 0:00:00.067680 Total Block Time 0:00:01.022719
+10000009 1
+1 reading block 17
+2 To write Noise 0:00:00.072191
+2 To write signal 0:00:00.074198 Total Block Time 0:00:01.024724
+10000006 2
+2 reading block 17
+3 To write Noise 0:00:00.064170
+3 To write signal 0:00:00.068683 Total Block Time 0:00:01.023723
+9999996 3
+3 reading block 17
+1 Reading time 0:00:00.020555
+2 Reading time 0:00:00.025566
+0 Reading time 0:00:00.038603
+3 Reading time 0:00:00.048629
+1 Signal lenght:  251142 Noise length 282 Percent lost 0.0011216113020236732
+2 Signal lenght:  251139 Noise length 280 Percent lost 0.0011136787593618621
+0 Signal lenght:  251145 Noise length 286 Percent lost 0.0011374890128902164
+3 Signal lenght:  251125 Noise length 288 Percent lost 0.0011455254899309104
+2 Processing time 0:00:00.815167
+0 Processing time 0:00:00.816670
+1 Processing time 0:00:00.829204
+3 Processing time 0:00:00.813164
+0 To write Noise 0:00:00.028075
+0 To write signal 0:00:00.061663 Total Block Time 0:00:00.945011
+10000007 0
+0 reading block 18
+1 To write Noise 0:00:00.029078
+1 To write signal 0:00:00.065677 Total Block Time 0:00:00.944514
+9999991 1
+1 reading block 18
+2 To write Noise 0:00:00.031083
+2 To write signal 0:00:00.070687 Total Block Time 0:00:00.942503
+10000011 2
+2 reading block 18
+3 To write Noise 0:00:00.006515
+3 To write signal 0:00:00.076202 Total Block Time 0:00:00.944510
+10000008 3
+3 reading block 18
+1 Reading time 0:00:00.019548
+2 Reading time 0:00:00.018549
+3 Reading time 0:00:00.022057
+0 Reading time 0:00:00.048130
+0 Signal lenght:  251105 Noise length 313 Percent lost 0.001244938707650208
+3 Signal lenght:  251151 Noise length 290 Percent lost 0.001153352078618841
+2 Signal lenght:  251089 Noise length 332 Percent lost 0.0013204943103400273
+1 Signal lenght:  251145 Noise length 281 Percent lost 0.0011176250666199996
+0 Processing time 0:00:00.785088
+3 Processing time 0:00:00.816672
+1 Processing time 0:00:00.836725
+2 Processing time 0:00:00.833216
+0 To write Noise 0:00:00.033587
+0 To write signal 0:00:00.041610 Total Block Time 0:00:00.908415
+10000003 0
+0 reading block 19
+1 To write Noise 0:00:00.009526
+1 To write signal 0:00:00.043619 Total Block Time 0:00:00.909418
+10000017 1
+1 reading block 19
+3 To write Noise 0:00:00.030581
+3 To write signal 0:00:00.041610 Total Block Time 0:00:00.910920
+10000014 3
+3 reading block 19
+2 To write Noise 0:00:00.006016
+2 To write signal 0:00:00.064673 Total Block Time 0:00:00.922454
+9999980 2
+2 reading block 19
+0 Reading time 0:00:00.027575
+1 Reading time 0:00:00.022057
+3 Reading time 0:00:00.024565
+2 Reading time 0:00:00.022567
+1 Signal lenght:  251106 Noise length 325 Percent lost 0.0012926011510116095
+3 Signal lenght:  251144 Noise length 284 Percent lost 0.0011295480217000493
+0 Signal lenght:  251076 Noise length 337 Percent lost 0.0013404239239816556
+2 Signal lenght:  251127 Noise length 302 Percent lost 0.0012011343162483246
+1 Processing time 0:00:00.745976
+3 Processing time 0:00:00.732446
+0 Processing time 0:00:00.763534
+2 Processing time 0:00:00.748481
+0 To write Noise 0:00:00.006513
+0 To write signal 0:00:00.044617 Total Block Time 0:00:00.842239
+9999999 0
+0 reading block 20
+0 Reading time 0:00:00.017547
+2 To write Noise 0:00:00.005520
+2 To write signal 0:00:00.071686 Total Block Time 0:00:00.848254
+10000031 2
+2 reading block 20
+1 To write Noise 0:00:00.025068
+1 To write signal 0:00:00.077705 Total Block Time 0:00:00.870806
+10000002 1
+1 reading block 20
+3 To write Noise 0:00:00.023564
+3 To write signal 0:00:00.079210 Total Block Time 0:00:00.859785
+9999966 3
+3 reading block 20
+2 Reading time 0:00:00.021054
+1 Reading time 0:00:00.021056
+3 Reading time 0:00:00.023563
+0 Signal lenght:  251105 Noise length 303 Percent lost 0.0012052122446381977
+2 Signal lenght:  251107 Noise length 317 Percent lost 0.001260818378515973
+1 Signal lenght:  251127 Noise length 301 Percent lost 0.0011971618117313902
+3 Signal lenght:  251114 Noise length 304 Percent lost 0.0012091417480053139
+0 Processing time 0:00:00.819399
+1 Processing time 0:00:00.803355
+2 Processing time 0:00:00.817894
+3 Processing time 0:00:00.818897
+0 To write Noise 0:00:00.047125
+0 To write signal 0:00:00.035594 Total Block Time 0:00:00.919665
+9999994 0
+0 reading block 21
+1 To write Noise 0:00:00.025569
+1 To write signal 0:00:00.040608 Total Block Time 0:00:00.890588
+9999984 1
+1 reading block 21
+2 To write Noise 0:00:00.016044
+2 To write signal 0:00:00.047125 Total Block Time 0:00:00.902117
+9999965 2
+2 reading block 21
+3 To write Noise 0:00:00.006016
+3 To write signal 0:00:00.053642 Total Block Time 0:00:00.902118
+10000007 3
+3 reading block 21
+0 Reading time 0:00:00.025068
+1 Reading time 0:00:00.027069
+2 Reading time 0:00:00.026069
+3 Reading time 0:00:00.024068
+1 Signal lenght:  251117 Noise length 311 Percent lost 0.001236934629396885
+0 Signal lenght:  251119 Noise length 301 Percent lost 0.0011971999045422004
+2 Signal lenght:  251092 Noise length 323 Percent lost 0.001284728437046318
+3 Signal lenght:  251131 Noise length 301 Percent lost 0.0011971427662350058
+1 Processing time 0:00:00.756516
+0 Processing time 0:00:00.764029
+2 Processing time 0:00:00.769546
+3 Processing time 0:00:00.774555
+0 To write Noise 0:00:00.030081
+0 To write signal 0:00:00.034591 Total Block Time 0:00:00.854271
+9999995 0
+0 reading block 22
+1 To write Noise 0:00:00.030579
+1 To write signal 0:00:00.041108 Total Block Time 0:00:00.855272
+10000012 1
+1 reading block 22
+2 To write Noise 0:00:00.012536
+2 To write signal 0:00:00.046120 Total Block Time 0:00:00.854271
+10000003 2
+2 reading block 22
+3 To write Noise 0:00:00.003510
+3 To write signal 0:00:00.050634 Total Block Time 0:00:00.852767
+10000011 3
+3 reading block 22
+0 Reading time 0:00:00.029579
+1 Reading time 0:00:00.024062
+2 Reading time 0:00:00.023063
+3 Reading time 0:00:00.023563
+1 Signal lenght:  251088 Noise length 317 Percent lost 0.0012609136652015672
+2 Signal lenght:  251124 Noise length 288 Percent lost 0.0011455300462985061
+0 Signal lenght:  251101 Noise length 321 Percent lost 0.0012767379147409534
+3 Signal lenght:  251115 Noise length 299 Percent lost 0.0011892734692578774
+2 Processing time 0:00:00.738462
+0 Processing time 0:00:00.768543
+1 Processing time 0:00:00.767039
+3 Processing time 0:00:00.777568
+0 To write Noise 0:00:00.026571
+0 To write signal 0:00:00.034090 Total Block Time 0:00:00.858783
+10000014 0
+0 reading block 23
+1 To write Noise 0:00:00.027075
+1 To write signal 0:00:00.039106 Total Block Time 0:00:00.857282
+9999997 1
+1 reading block 23
+0 Reading time 0:00:00.019555
+1 Reading time 0:00:00.017041
+3 To write Noise 0:00:00.006519
+3 To write signal 0:00:00.085725 Total Block Time 0:00:00.893375
+10000002 3
+3 reading block 23
+2 To write Noise 0:00:00.051639
+2 To write signal 0:00:00.090237 Total Block Time 0:00:00.903401
+10000027 2
+2 reading block 23
+3 Reading time 0:00:00.018550
+2 Reading time 0:00:00.019554
+1 Signal lenght:  251138 Noise length 295 Percent lost 0.0011732747889099681
+0 Signal lenght:  251101 Noise length 335 Percent lost 0.0013323469988386707
+3 Signal lenght:  251136 Noise length 283 Percent lost 0.0011256110317835963
+1 Processing time 0:00:00.829206
+2 Signal lenght:  251148 Noise length 290 Percent lost 0.0011533658396901026
+0 Processing time 0:00:00.869809
+3 Processing time 0:00:00.852264
+2 Processing time 0:00:00.890365
+0 To write Noise 0:00:00.082721
+0 To write signal 0:00:00.033088 Total Block Time 0:00:01.005173
+10000004 0
+0 reading block 24
+1 To write Noise 0:00:00.120319
+1 To write signal 0:00:00.037602 Total Block Time 0:00:01.004168
+10000001 1
+1 reading block 24
+2 To write Noise 0:00:00.006518
+2 To write signal 0:00:00.042112 Total Block Time 0:00:00.958549
+9999975 2
+2 reading block 24
+3 To write Noise 0:00:00.049132
+3 To write signal 0:00:00.053144 Total Block Time 0:00:00.973090
+9999999 3
+3 reading block 24
+0 Reading time 0:00:00.022567
+1 Reading time 0:00:00.028573
+2 Reading time 0:00:00.030583
+3 Reading time 0:00:00.029576
+2 Signal lenght:  251118 Noise length 294 Percent lost 0.0011693952555963916
+1 Signal lenght:  251120 Noise length 307 Percent lost 0.0012210303587124691
+3 Signal lenght:  251114 Noise length 298 Percent lost 0.0011853053951283153
+0 Signal lenght:  251124 Noise length 298 Percent lost 0.0011852582510679256
+2 Processing time 0:00:00.786088
+3 Processing time 0:00:00.797118
+1 Processing time 0:00:00.819178
+0 Processing time 0:00:00.884343
+0 To write Noise 0:00:00.016043
+0 To write signal 0:00:00.067680 Total Block Time 0:00:00.990633
+9999973 0
+0 reading block 25
+1 To write Noise 0:00:00.070688
+1 To write signal 0:00:00.071690 Total Block Time 0:00:00.990129
+9999978 1
+1 reading block 25
+2 To write Noise 0:00:00.096256
+2 To write signal 0:00:00.082218 Total Block Time 0:00:00.995145
+9999994 2
+2 reading block 25
+3 To write Noise 0:00:00.097259
+3 To write signal 0:00:00.062666 Total Block Time 0:00:00.986619
+9999983 3
+3 reading block 25
+0 Reading time 0:00:00.022560
+1 Reading time 0:00:00.028580
+3 Reading time 0:00:00.039606
+2 Reading time 0:00:00.041611
+1 Signal lenght:  251124 Noise length 289 Percent lost 0.0011495030089931706
+0 Signal lenght:  251103 Noise length 314 Percent lost 0.0012489211151195027
+2 Signal lenght:  251077 Noise length 344 Percent lost 0.0013682230203523175
+3 Signal lenght:  251124 Noise length 285 Percent lost 0.001133610968581077
+1 Processing time 0:00:00.871814
+0 Processing time 0:00:00.933482
+3 Processing time 0:00:00.899892
+2 Processing time 0:00:00.906910
+0 To write Noise 0:00:00.040608
+0 To write signal 0:00:00.031759 Total Block Time 0:00:01.028409
+10000013 0
+0 reading block 26
+0 Reading time 0:00:00.015628
+3 To write Noise 0:00:00.040608
+3 To write signal 0:00:00.100285 Total Block Time 0:00:01.080391
+10000007 3
+3 reading block 26
+1 To write Noise 0:00:00.091744
+1 To write signal 0:00:00.100285 Total Block Time 0:00:01.092423
+10000014 1
+1 reading block 26
+2 To write Noise 0:00:00.033089
+2 To write signal 0:00:00.100285 Total Block Time 0:00:01.081895
+10000005 2
+2 reading block 26
+3 Reading time 0:00:00.015633
+1 Reading time 0:00:00.015633
+2 Reading time 0:00:00.031257
+0 Signal lenght:  251125 Noise length 296 Percent lost 0.001177308180303157
+3 Signal lenght:  251110 Noise length 317 Percent lost 0.0012608033345662957
+1 Signal lenght:  251110 Noise length 306 Percent lost 0.0012171063098609476
+0 Processing time 0:00:00.957821
+3 Processing time 0:00:00.920373
+2 Signal lenght:  251116 Noise length 306 Percent lost 0.0012170772645194135
+1 Processing time 0:00:00.959979
+2 Processing time 0:00:00.987971
+0 To write Noise 0:00:00.117814
+0 To write signal 0:00:00.060660 Total Block Time 0:00:01.151923
+9999999 0
+0 reading block 27
+1 To write Noise 0:00:00.052640
+1 To write signal 0:00:00.059658 Total Block Time 0:00:01.087910
+10000007 1
+1 reading block 27
+2 To write Noise 0:00:00.004011
+2 To write signal 0:00:00.069684 Total Block Time 0:00:01.092923
+10000024 2
+2 reading block 27
+3 To write Noise 0:00:00.091745
+3 To write signal 0:00:00.069685 Total Block Time 0:00:01.097436
+10000010 3
+3 reading block 27
+1 Reading time 0:00:00.020054
+2 Reading time 0:00:00.023563
+3 Reading time 0:00:00.020555
+0 Reading time 0:00:00.035095
+2 Signal lenght:  251106 Noise length 315 Percent lost 0.0012528786378226161
+1 Signal lenght:  251142 Noise length 288 Percent lost 0.0011454480372270611
+3 Signal lenght:  251105 Noise length 317 Percent lost 0.0012608284080152096
+0 Signal lenght:  251090 Noise length 332 Percent lost 0.0013204890582367494
+2 Processing time 0:00:00.926476
+1 Processing time 0:00:00.958049
+3 Processing time 0:00:00.949523
+0 Processing time 0:00:00.972082
+0 To write Noise 0:00:00.003510
+0 To write signal 0:00:00.066677 Total Block Time 0:00:01.077364
+10000011 0
+0 reading block 28
+1 To write Noise 0:00:00.029576
+1 To write signal 0:00:00.069685 Total Block Time 0:00:01.077364
+9999997 1
+1 reading block 28
+2 To write Noise 0:00:00.052627
+2 To write signal 0:00:00.078208 Total Block Time 0:00:01.080874
+9999979 2
+2 reading block 28
+3 To write Noise 0:00:00.028075
+3 To write signal 0:00:00.082720 Total Block Time 0:00:01.080873
+10000005 3
+3 reading block 28
+0 Reading time 0:00:00.018048
+1 Reading time 0:00:00.021058
+3 Reading time 0:00:00.018048
+2 Reading time 0:00:00.037601
+0 Signal lenght:  251096 Noise length 332 Percent lost 0.0013204575464944239
+1 Signal lenght:  251147 Noise length 278 Percent lost 0.0011056975241125584
+3 Signal lenght:  251100 Noise length 332 Percent lost 0.001320436539501734
+0 Processing time 0:00:00.957545
+2 Signal lenght:  251109 Noise length 310 Percent lost 0.0012330014835792045
+1 Processing time 0:00:01.009684
+3 Processing time 0:00:01.017203
+2 Processing time 0:00:01.035752
+0 To write Noise 0:00:00.121826
+0 To write signal 0:00:00.065673 Total Block Time 0:00:01.163092
+9999980 0
+0 reading block 29
+1 To write Noise 0:00:00.080713
+1 To write signal 0:00:00.056649 Total Block Time 0:00:01.168104
+9999968 1
+1 reading block 29
+0 Reading time 0:00:00.017044
+1 Reading time 0:00:00.016043
+3 To write Noise 0:00:00.059660
+3 To write signal 0:00:00.102272 Total Block Time 0:00:01.197183
+10000003 3
+3 reading block 29
+2 To write Noise 0:00:00.013537
+2 To write signal 0:00:00.118314 Total Block Time 0:00:01.205204
+10000011 2
+2 reading block 29
+3 Reading time 0:00:00.017546
+2 Reading time 0:00:00.017546
+3 Signal lenght:  251154 Noise length 267 Percent lost 0.0010619637977734558
+0 Signal lenght:  251117 Noise length 303 Percent lost 0.0012051547211836767
+1 Signal lenght:  251117 Noise length 305 Percent lost 0.0012130998878379777
+2 Signal lenght:  251129 Noise length 290 Percent lost 0.001153453000767643
+3 Processing time 0:00:00.809150
+0 Processing time 0:00:00.892373
+1 Processing time 0:00:00.909919
+2 Processing time 0:00:00.886858
+0 To write Noise 0:00:00.053141
+0 To write signal 0:00:00.031083 Total Block Time 0:00:00.993641
+10000019 0
+0 reading block 30
+0 Reading time 0:00:00.017045
+3 To write Noise 0:00:00.085729
+3 To write signal 0:00:00.093248 Total Block Time 0:00:01.005673
+9999992 3
+3 reading block 30
+1 To write Noise 0:00:00.028075
+1 To write signal 0:00:00.098261 Total Block Time 0:00:01.052298
+10000005 1
+1 reading block 30
+2 To write Noise 0:00:00.004512
+2 To write signal 0:00:00.099765 Total Block Time 0:00:01.008681
+9999975 2
+2 reading block 30
+3 Reading time 0:00:00.021057
+2 Reading time 0:00:00.022059
+1 Reading time 0:00:00.024565
+3 Signal lenght:  251077 Noise length 339 Percent lost 0.001348362872689089
+2 Signal lenght:  251107 Noise length 313 Percent lost 0.0012449288043910587
+1 Signal lenght:  251144 Noise length 280 Percent lost 0.0011136566119383988
+3 Processing time 0:00:00.826697
+0 Signal lenght:  251102 Noise length 320 Percent lost 0.0012727605380595175
+2 Processing time 0:00:00.854771
+1 Processing time 0:00:00.874825
+0 Processing time 0:00:00.982612
+0 To write Noise 0:00:00.017046
+0 To write signal 0:00:00.066677 Total Block Time 0:00:01.083380
+9999996 0
+0 reading block 31
+1 To write Noise 0:00:00.051137
+1 To write signal 0:00:00.069684 Total Block Time 0:00:01.020211
+10000002 1
+1 reading block 31
+0 Reading time 0:00:00.021056
+1 Reading time 0:00:00.019552
+3 To write Noise 0:00:00.111296
+3 To write signal 0:00:00.091243 Total Block Time 0:00:01.050794
+9999992 3
+3 reading block 31
+2 To write Noise 0:00:00.071190
+2 To write signal 0:00:00.100266 Total Block Time 0:00:01.048286
+10000014 2
+2 reading block 31
+2 Reading time 0:00:00.020054
+3 Reading time 0:00:00.025066
+3 Signal lenght:  251089 Noise length 336 Percent lost 0.0013363826190712937
+0 Signal lenght:  251128 Noise length 302 Percent lost 0.00120112953903671
+2 Signal lenght:  251136 Noise length 299 Percent lost 0.0011891741404339094
+1 Signal lenght:  251138 Noise length 291 Percent lost 0.0011573843908220611
+3 Processing time 0:00:00.804640
+0 Processing time 0:00:00.897385
+2 Processing time 0:00:00.865802
+1 Processing time 0:00:00.907412
+0 To write Noise 0:00:00.017047
+0 To write signal 0:00:00.036098 Total Block Time 0:00:00.971586
+10000000 0
+0 reading block 32
+0 Reading time 0:00:00.018547
+2 To write Noise 0:00:00.015039
+2 To write signal 0:00:00.082218 Total Block Time 0:00:00.983113
+9999987 2
+2 reading block 32
+1 To write Noise 0:00:00.005517
+1 To write signal 0:00:00.086729 Total Block Time 0:00:01.019210
+10000004 1
+1 reading block 32
+3 To write Noise 0:00:00.076204
+3 To write signal 0:00:00.088233 Total Block Time 0:00:00.994143
+9999995 3
+3 reading block 32
+2 Reading time 0:00:00.021552
+3 Reading time 0:00:00.020552
+1 Reading time 0:00:00.023060
+2 Signal lenght:  251122 Noise length 296 Percent lost 0.0011773222283209634
+3 Signal lenght:  251139 Noise length 295 Percent lost 0.0011732701225768988
+0 Signal lenght:  251125 Noise length 304 Percent lost 0.0012090888481440089
+1 Signal lenght:  251133 Noise length 296 Percent lost 0.0011772707205612717
+3 Processing time 0:00:00.832714
+0 Processing time 0:00:00.892873
+2 Processing time 0:00:00.845247
+1 Processing time 0:00:00.841738
+0 To write Noise 0:00:00.019051
+0 To write signal 0:00:00.060159 Total Block Time 0:00:00.990630
+10000005 0
+0 reading block 33
+1 To write Noise 0:00:00.016044
+1 To write signal 0:00:00.064671 Total Block Time 0:00:00.945513
+9999987 1
+1 reading block 33
+2 To write Noise 0:00:00.015542
+2 To write signal 0:00:00.071690 Total Block Time 0:00:00.954532
+10000016 2
+2 reading block 33
+3 To write Noise 0:00:00.023062
+3 To write signal 0:00:00.076704 Total Block Time 0:00:00.953032
+9999998 3
+3 reading block 33
+2 Reading time 0:00:00.024065
+3 Reading time 0:00:00.025066
+1 Reading time 0:00:00.036598
+0 Reading time 0:00:00.054144
+0 Signal lenght:  251123 Noise length 294 Percent lost 0.0011693719995067955
+3 Signal lenght:  251108 Noise length 309 Percent lost 0.0012290338362163258
+2 Signal lenght:  251099 Noise length 324 Percent lost 0.0012886649192794613
+1 Signal lenght:  251129 Noise length 295 Percent lost 0.001173316787577956
+0 Processing time 0:00:00.822186
+2 Processing time 0:00:00.863295
+3 Processing time 0:00:00.862292
+1 Processing time 0:00:00.887859
+0 To write Noise 0:00:00.064671
+0 To write signal 0:00:00.089738 Total Block Time 0:00:01.030739
+9999995 0
+0 reading block 34
+1 To write Noise 0:00:00.026070
+1 To write signal 0:00:00.079212 Total Block Time 0:00:01.029739
+10000005 1
+1 reading block 34
+2 To write Noise 0:00:00.043114
+2 To write signal 0:00:00.099265 Total Block Time 0:00:01.029739
+9999975 2
+2 reading block 34
+3 To write Noise 0:00:00.039105
+3 To write signal 0:00:00.103775 Total Block Time 0:00:01.030238
+9999994 3
+3 reading block 34
+1 Reading time 0:00:00.027572
+2 Reading time 0:00:00.027072
+3 Reading time 0:00:00.023062
+0 Reading time 0:00:00.050134
+3 Signal lenght:  251101 Noise length 320 Percent lost 0.001272765600327737
+0 Signal lenght:  251119 Noise length 307 Percent lost 0.001221035215132882
+1 Signal lenght:  251085 Noise length 333 Percent lost 0.001324487506861084
+2 Signal lenght:  251122 Noise length 297 Percent lost 0.0011812949697516894
+3 Processing time 0:00:00.840734
+0 Processing time 0:00:00.869813
+1 Processing time 0:00:00.887360
+2 Processing time 0:00:00.885353
+0 To write Noise 0:00:00.019552
+0 To write signal 0:00:00.078709 Total Block Time 0:00:01.018208
+10000001 0
+0 reading block 35
+0 Reading time 0:00:00.020054
+3 To write Noise 0:00:00.061665
+3 To write signal 0:00:00.165941 Total Block Time 0:00:01.091402
+10000009 3
+3 reading block 35
+1 To write Noise 0:00:00.040607
+1 To write signal 0:00:00.149398 Total Block Time 0:00:01.104937
+10000013 1
+1 reading block 35
+2 To write Noise 0:00:00.017547
+2 To write signal 0:00:00.173962 Total Block Time 0:00:01.103934
+9999997 2
+2 reading block 35
+3 Reading time 0:00:00.027071
+1 Reading time 0:00:00.024063
+2 Reading time 0:00:00.025067
+0 Signal lenght:  251080 Noise length 323 Percent lost 0.001284789759867623
+3 Signal lenght:  251138 Noise length 288 Percent lost 0.001145466260450391
+1 Signal lenght:  251129 Noise length 297 Percent lost 0.0011812620810894656
+0 Processing time 0:00:00.840233
+2 Signal lenght:  251148 Noise length 280 Percent lost 0.0011136388946338515
+3 Processing time 0:00:00.795615
+1 Processing time 0:00:00.807146
+2 Processing time 0:00:00.831710
+0 To write Noise 0:00:00.099263
+0 To write signal 0:00:00.057654 Total Block Time 0:00:01.017204
+1588486 0
+0 reading block 36
+2 To write Noise 0:00:00.007521
+2 To write signal 0:00:00.068682 Total Block Time 0:00:00.932980
+1588487 2
+2 reading block 36
+0 Reading time 0:00:00.014539
+3 To write Noise 0:00:00.051136
+3 To write signal 0:00:00.072192 Total Block Time 0:00:00.946014
+1588448 3
+3 reading block 36
+1 To write Noise 0:00:00.035595
+1 To write signal 0:00:00.075199 Total Block Time 0:00:00.942003
+1588485 1
+1 reading block 36
+2 Reading time 0:00:00.013035
+3 Reading time 0:00:00.011531
+1 Reading time 0:00:00.012032
+0 Signal lenght:  39886 Noise length 48 Percent lost 0.0012019832723994591
+3 Signal lenght:  39886 Noise length 47 Percent lost 0.0011769714271404603
+0 Processing time 0:00:00.124330
+3 Processing time 0:00:00.116810
+1 Signal lenght:  39903 Noise length 38 Percent lost 0.0009514033198968478
+2 Signal lenght:  39891 Noise length 46 Percent lost 0.0011518141072188698
+1 Processing time 0:00:00.124331
+2 Processing time 0:00:00.139369
+0 To write Noise 0:00:00.038603
+0 To write signal 0:00:00.039605 Total Block Time 0:00:00.217077
+1 To write Noise 0:00:00.022560
+1 To write signal 0:00:00.040108 Total Block Time 0:00:00.199031
+3 To write Noise 0:00:00.032086
+3 To write signal 0:00:00.041108 Total Block Time 0:00:00.201535
+2 To write Noise 0:00:00.017546
+2 To write signal 0:00:00.038101 Total Block Time 0:00:00.208051
+Total Time 0:00:33.787673
+Input Time 0:00:01.004965
+Output Time 0:00:03.065176
+Processing Time 0:00:29.708505
+Thu Apr  6 20:04:02 2017    profile
+
+         17685205 function calls (17685181 primitive calls) in 23.405 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  8839676   13.812    0.000   13.812    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+       72    3.173    0.044    3.173    0.044 {method 'join' of 'str' objects}
+       72    2.135    0.030    2.135    0.030 {method 'split' of 'str' objects}
+       73    1.481    0.020    1.481    0.020 {built-in method Open}
+  8839894    1.438    0.000    1.438    0.000 {method 'append' of 'list' objects}
+       36    0.471    0.013    0.471    0.013 {method 'Write_ordered' of 'mpi4py.MPI.File' objects}
+       72    0.331    0.005    0.331    0.005 {method 'decode' of 'bytearray' objects}
+       72    0.283    0.004    0.283    0.004 {method 'Seek_shared' of 'mpi4py.MPI.File' objects}
+       36    0.199    0.006    0.199    0.006 {method 'Read' of 'mpi4py.MPI.File' objects}
+        1    0.043    0.043    0.043    0.043 {method 'reduce' of 'mpi4py.MPI.Comm' objects}
+      258    0.020    0.000    0.024    0.000 {built-in method builtins.print}
+       36    0.008    0.000    0.008    0.000 {method 'Iwrite_shared' of 'mpi4py.MPI.File' objects}
+     1828    0.002    0.000    0.004    0.000 C:\ProgramData\Anaconda3\lib\encodings\cp1252.py:18(encode)
+     1828    0.002    0.000    0.002    0.000 {built-in method _codecs.charmap_encode}
+        4    0.002    0.000    0.002    0.000 {built-in method io.open}
+      220    0.002    0.000    0.002    0.000 {built-in method now}
+        1    0.001    0.001    0.001    0.001 {method 'Get_size' of 'mpi4py.MPI.Comm' objects}
+       36    0.001    0.000    0.001    0.000 {method 'Iread' of 'mpi4py.MPI.File' objects}
+        1    0.000    0.000    0.001    0.001 C:\ProgramData\Anaconda3\lib\re.py:231(compile)
+        1    0.000    0.000    0.001    0.001 C:\ProgramData\Anaconda3\lib\re.py:286(_compile)
+        1    0.000    0.000    0.001    0.001 C:\ProgramData\Anaconda3\lib\sre_compile.py:557(compile)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:845(parse)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:407(_parse_sub)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:469(_parse)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:542(_code)
+      9/1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:64(_compile)
+       72    0.000    0.000    0.000    0.000 {method 'Seek' of 'mpi4py.MPI.File' objects}
+       10    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:223(_compile_charset)
+       10    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:250(_optimize_charset)
+       64    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:253(get)
+  363/355    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       84    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:232(__next)
+       48    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:163(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:482(_compile_info)
+     17/9    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:173(getwidth)
+       45    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:248(match)
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:388(_simple)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\enum.py:797(__and__)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_bootlocale.py:11(getpreferredencoding)
+       55    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       34    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       19    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:285(tell)
+       24    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:159(__len__)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:342(_escape)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\enum.py:265(__call__)
+        4    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+       17    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:171(append)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        9    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:111(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:223(__init__)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\enum.py:515(__new__)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\codecs.py:185(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       27    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:167(__setitem__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:539(isstring)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:829(fix_flags)
+        4    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:414(_get_literal_prefix)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:441(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+
+C:\Users\wilso>mpiexec -np 4 python C:\Users\wilso\Programming_analytics\MPIproject\norm.py C:\Users\wilso\Programming_analytics\MPIproject\signal.txt
+0 To split file into segments 0:00:00
+1 To split file into segments 0:00:00
+2 To split file into segments 0:00:00
+3 To split file into segments 0:00:00
+0 To split segment into blocks 0:00:00.015627 Total number of blocks 36
+1 To split segment into blocks 0:00:00.015627 Total number of blocks 36
+2 To split segment into blocks 0:00:00.015627 Total number of blocks 36
+3 To split segment into blocks 0:00:00.015627 Total number of blocks 36
+0 To read block 1 0:00:00.021646
+1 To read block 1 0:00:00.021646
+2 To read block 1 0:00:00.021646
+3 To read block 1 0:00:00.037283
+0 To process block 0:00:12.208011
+3 To process block 0:00:12.206913
+2 To process block 0:00:12.232577
+1 To process block 0:00:12.270678
+0 To read block 2 0:00:00.074198
+3 To read block 2 0:00:00.068687
+2 To read block 2 0:00:00.061664
+1 To read block 2 0:00:00.045622
+3 To process block 0:00:11.759256
+0 To process block 0:00:11.824935
+3 To read block 3 0:00:00.067180
+2 To process block 0:00:11.840978
+0 To read block 3 0:00:00.037602
+1 To process block 0:00:11.839975
+2 To read block 3 0:00:00.046124
+1 To read block 3 0:00:00.046122
+3 To process block 0:00:11.672529
+2 To process block 0:00:11.653980
+3 To read block 4 0:00:00.069184
+0 To process block 0:00:11.715142
+2 To read block 4 0:00:00.037600
+0 To read block 4 0:00:00.038101
+1 To process block 0:00:11.755755
+1 To read block 4 0:00:00.030580
+3 To process block 0:00:11.755250
+2 To process block 0:00:11.801372
+3 To read block 5 0:00:00.065173
+0 To process block 0:00:11.790845
+0 To read block 5 0:00:00.036597
+2 To read block 5 0:00:00.058156
+1 To process block 0:00:11.815911
+1 To read block 5 0:00:00.032087
+3 To process block 0:00:11.957789
+3 To read block 6 0:00:00.067179
+0 To process block 0:00:12.032989
+2 To process block 0:00:12.044017
+0 To read block 6 0:00:00.035596
+2 To read block 6 0:00:00.036597
+1 To process block 0:00:12.024465
+1 To read block 6 0:00:00.034592
+3 To process block 0:00:11.721160
+0 To process block 0:00:11.673531
+3 To read block 7 0:00:00.062169
+0 To read block 7 0:00:00.041610
+1 To process block 0:00:11.737202
+2 To process block 0:00:11.841480
+1 To read block 7 0:00:00.044118
+2 To read block 7 0:00:00.040107
+3 To process block 0:00:13.692397
+3 To read block 8 0:00:00.061664
+0 To process block 0:00:13.746544
+0 To read block 8 0:00:00.086729
+2 To process block 0:00:13.835781
+2 To read block 8 0:00:00.064172
+1 To process block 0:00:14.070404
+1 To read block 8 0:00:00.054143
+0 To process block 0:00:16.730476
+3 To process block 0:00:16.886891
+0 To read block 9 0:00:00.065676
+2 To process block 0:00:16.566038
+3 To read block 9 0:00:00.065174
+2 To read block 9 0:00:00.040106
+1 To process block 0:00:16.507384
+1 To read block 9 0:00:00.036096
+3 To process block 0:00:13.989188
+0 To process block 0:00:14.063886
+0 To read block 10 0:00:00.067680
+3 To read block 10 0:00:00.093248
+2 To process block 0:00:14.484004
+1 To process block 0:00:14.361679
+2 To read block 10 0:00:00.078710
+1 To read block 10 0:00:00.065173
+0 To process block 0:00:15.326745
+3 To process block 0:00:15.353817
+0 To read block 11 0:00:00.054144
+3 To read block 11 0:00:00.039604
+1 To process block 0:00:15.268089
+1 To read block 11 0:00:00.031584
+2 To process block 0:00:15.312206
+2 To read block 11 0:00:00.037600
+0 To process block 0:00:13.047686
+0 To read block 12 0:00:00.033088
+3 To process block 0:00:13.271280
+3 To read block 12 0:00:00.035093
+2 To process block 0:00:13.129402
+2 To read block 12 0:00:00.037600
+1 To process block 0:00:13.350490
+1 To read block 12 0:00:00.034091
+0 To process block 0:00:13.632240
+3 To process block 0:00:13.430203
+0 To read block 13 0:00:00.090240
+3 To read block 13 0:00:00.055648
+2 To process block 0:00:13.767600
+2 To read block 13 0:00:00.085226
+1 To process block 0:00:13.801189
+1 To read block 13 0:00:00.112299
+0 To process block 0:00:13.870373
+3 To process block 0:00:13.928528
+0 To read block 14 0:00:00.069184
+3 To read block 14 0:00:00.044618
+2 To process block 0:00:13.856336
+2 To read block 14 0:00:00.045120
+1 To process block 0:00:13.849317
+1 To read block 14 0:00:00.037098
+3 To process block 0:00:13.198085
+3 To read block 15 0:00:00.038603
+0 To process block 0:00:13.343472
+0 To read block 15 0:00:00.097258
+2 To process block 0:00:13.244710
+2 To read block 15 0:00:00.109793
+1 To process block 0:00:13.164497
+1 To read block 15 0:00:00.043114
+3 To process block 0:00:12.844145
+3 To read block 16 0:00:00.082720
+0 To process block 0:00:13.006076
+0 To read block 16 0:00:00.032086
+2 To process block 0:00:13.003066
+2 To read block 16 0:00:00.031584
+1 To process block 0:00:13.085788
+1 To read block 16 0:00:00.040107
+3 To process block 0:00:13.001563
+3 To read block 17 0:00:00.041110
+0 To process block 0:00:13.141936
+0 To read block 17 0:00:00.068181
+2 To process block 0:00:13.075760
+2 To read block 17 0:00:00.069685
+1 To process block 0:00:13.126394
+1 To read block 17 0:00:00.069184
+3 To process block 0:00:13.015099
+3 To read block 18 0:00:00.068683
+0 To process block 0:00:13.082780
+0 To read block 18 0:00:00.099263
+2 To process block 0:00:13.361521
+1 To process block 0:00:13.187557
+2 To read block 18 0:00:00.091744
+1 To read block 18 0:00:00.056651
+3 To process block 0:00:13.574586
+3 To read block 19 0:00:00.034592
+0 To process block 0:00:13.271281
+0 To read block 19 0:00:00.069184
+1 To process block 0:00:13.123387
+1 To read block 19 0:00:00.069184
+2 To process block 0:00:13.247219
+2 To read block 19 0:00:00.036093
+3 To process block 0:00:12.848657
+3 To read block 20 0:00:00.066677
+0 To process block 0:00:12.887760
+0 To read block 20 0:00:00.067681
+1 To process block 0:00:13.014598
+1 To read block 20 0:00:00.044619
+2 To process block 0:00:12.978502
+2 To read block 20 0:00:00.038603
+3 To process block 0:00:13.463291
+3 To read block 21 0:00:00.036597
+0 To process block 0:00:13.255738
+0 To read block 21 0:00:00.054145
+1 To process block 0:00:13.407642
+1 To read block 21 0:00:00.033589
+2 To process block 0:00:13.616197
+2 To read block 21 0:00:00.071189
+3 To process block 0:00:13.139430
+3 To read block 22 0:00:00.039104
+0 To process block 0:00:13.115367
+0 To read block 22 0:00:00.037099
+1 To process block 0:00:12.956944
+1 To read block 22 0:00:00.068181
+2 To process block 0:00:13.044678
+2 To read block 22 0:00:00.071691
+3 To process block 0:00:13.028635
+3 To read block 23 0:00:00.068683
+0 To process block 0:00:13.193072
+0 To read block 23 0:00:00.069184
+1 To process block 0:00:13.194075
+1 To read block 23 0:00:00.070187
+2 To process block 0:00:13.154971
+2 To read block 23 0:00:00.066677
+3 To process block 0:00:13.577594
+3 To read block 24 0:00:00.071691
+0 To process block 0:00:13.596645
+0 To read block 24 0:00:00.083222
+1 To process block 0:00:13.585616
+1 To read block 24 0:00:00.088736
+2 To process block 0:00:13.782640
+2 To read block 24 0:00:00.083221
+3 To process block 0:00:13.695418
+3 To read block 25 0:00:00.036597
+0 To process block 0:00:13.798191
+0 To read block 25 0:00:00.078208
+1 To process block 0:00:13.834287
+1 To read block 25 0:00:00.068683
+2 To process block 0:00:13.769114
+2 To read block 25 0:00:00.070688
+3 To process block 0:00:13.622715
+3 To read block 26 0:00:00.071690
+0 To process block 0:00:13.671343
+0 To read block 26 0:00:00.069184
+1 To process block 0:00:13.761584
+1 To read block 26 0:00:00.080714
+2 To process block 0:00:13.839290
+2 To read block 26 0:00:00.071189
+3 To process block 0:00:14.922169
+3 To read block 27 0:00:00.069686
+0 To process block 0:00:14.926180
+0 To read block 27 0:00:00.085728
+1 To process block 0:00:15.114681
+1 To read block 27 0:00:00.072693
+2 To process block 0:00:15.250041
+2 To read block 27 0:00:00.072192
+3 To process block 0:00:16.792641
+3 To read block 28 0:00:00.073696
+0 To process block 0:00:17.010220
+0 To read block 28 0:00:00.071690
+1 To process block 0:00:16.781111
+1 To read block 28 0:00:00.070187
+2 To process block 0:00:16.893409
+2 To read block 28 0:00:00.045121
+3 To process block 0:00:16.856814
+3 To read block 29 0:00:00.096254
+0 To process block 0:00:17.020247
+0 To read block 29 0:00:00.100267
+1 To process block 0:00:17.437355
+1 To read block 29 0:00:00.119818
+2 To process block 0:00:17.663456
+2 To read block 29 0:00:00.082720
+3 To process block 0:00:19.982622
+3 To read block 30 0:00:00.110293
+0 To process block 0:00:19.946024
+0 To read block 30 0:00:00.097760
+1 To process block 0:00:19.969086
+1 To read block 30 0:00:00.120821
+2 To process block 0:00:19.853277
+2 To read block 30 0:00:00.073696
+3 To process block 0:00:18.358303
+3 To read block 31 0:00:00.121323
+0 To process block 0:00:18.195370
+0 To read block 31 0:00:00.097259
+1 To process block 0:00:18.220437
+1 To read block 31 0:00:00.070189
+2 To process block 0:00:18.220938
+2 To read block 31 0:00:00.123328
+3 To process block 0:00:17.605803
+3 To read block 32 0:00:00.032587
+0 To process block 0:00:17.322049
+0 To read block 32 0:00:00.071691
+1 To process block 0:00:17.156607
+1 To read block 32 0:00:00.075200
+2 To process block 0:00:17.147585
+2 To read block 32 0:00:00.076195
+3 To process block 0:00:16.983649
+3 To read block 33 0:00:00.073697
+0 To process block 0:00:16.860320
+0 To read block 33 0:00:00.085728
+1 To process block 0:00:17.098956
+1 To read block 33 0:00:00.095253
+2 To process block 0:00:17.203735
+2 To read block 33 0:00:00.072191
+3 To process block 0:00:17.254869
+3 To read block 34 0:00:00.076203
+0 To process block 0:00:17.204239
+0 To read block 34 0:00:00.074194
+1 To process block 0:00:17.362657
+1 To read block 34 0:00:00.115809
+2 To process block 0:00:17.498518
+2 To read block 34 0:00:00.108289
+3 To process block 0:00:20.411762
+3 To read block 35 0:00:00.078710
+0 To process block 0:00:20.733117
+0 To read block 35 0:00:00.060661
+1 To process block 0:00:20.471420
+1 To read block 35 0:00:00.039104
+2 To process block 0:00:20.395218
+2 To read block 35 0:00:00.070688
+3 To process block 0:00:21.213392
+3 To read block 36 0:00:00.073194
+0 To process block 0:00:21.019377
+0 To read block 36 0:00:00.039605
+1 To process block 0:00:20.741138
+1 To read block 36 0:00:00.038102
+2 To process block 0:00:20.875500
+2 To read block 36 0:00:00.043616
+3 To process block 0:00:16.201570
+0 To process block 0:00:16.258221
+1 To process block 0:00:16.148428
+2 To process block 0:00:15.994150
+3 To pass statistics 0:00:02.239586
+3 Total input time 0:00:02.294294
+3 Total output time 0:00:00
+3 Total process time 0:08:47.233640
+1 To pass statistics 0:00:00.979235
+1 Total input time 0:00:02.175376
+1 Total output time 0:00:00
+1 Total process time 0:08:48.612410
+2 To pass statistics 0:00:00
+2 Total input time 0:00:02.270621
+2 Total output time 0:00:00
+2 Total process time 0:08:49.494893
+0 To pass statistics 0:00:01.896912
+The data set does not come from a normal distribution. Its skewness is -0.16 and its kurtosis is 1303.55
+The average log return is 1.367096277354151e-07
+There were 35284246 observations
+The standard deviation is 1.6188959628973275e-05
+0 To compute final statistics 0:00:00 Total time 0:08:51.802852
+0 Total input time 0:00:02.361369
+0 Total output time 0:00:00
+0 Total process time 0:08:49.434967
+Thu Apr  6 20:14:01 2017    profile
+
+         256037779 function calls (256037642 primitive calls) in 472.935 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  8828931    8.854    0.000  425.710    0.000 C:\Users\wilso\Programming_analytics\MPIproject\norm.py:40(date_parse)
+  8828931   14.470    0.000  416.856    0.000 {built-in method strptime}
+  8828931   25.893    0.000  402.327    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:562(_strptime_datetime)
+  8828931  223.473    0.000  376.433    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:321(_strptime)
+  8828933    9.164    0.000   75.876    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:29(_getlang)
+  8828933   11.030    0.000   66.712    0.000 C:\ProgramData\Anaconda3\lib\locale.py:565(getlocale)
+  8828933    8.698    0.000   32.604    0.000 C:\ProgramData\Anaconda3\lib\locale.py:462(_parse_localename)
+  8828931   26.990    0.000   26.990    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+  8828933   16.618    0.000   23.905    0.000 C:\ProgramData\Anaconda3\lib\locale.py:379(normalize)
+  8828933   23.078    0.000   23.078    0.000 {built-in method _locale.setlocale}
+  8828931   22.347    0.000   22.347    0.000 {method 'groupdict' of '_sre.SRE_Match' objects}
+  8829003   11.131    0.000   11.131    0.000 {method 'split' of 'str' objects}
+ 26486825    9.951    0.000    9.951    0.000 {method 'get' of 'dict' objects}
+26487204/26487197    6.536    0.000    6.536    0.000 {built-in method builtins.len}
+       42    5.807    0.138    5.807    0.138 {built-in method builtins.sorted}
+  8828931    5.462    0.000    5.462    0.000 {method 'total_seconds' of 'datetime.timedelta' objects}
+ 17658274    4.999    0.000    4.999    0.000 {built-in method builtins.isinstance}
+  8828895    4.990    0.000    4.990    0.000 {built-in method math.log10}
+       36    4.576    0.127    4.576    0.127 C:\Users\wilso\Programming_analytics\MPIproject\norm.py:152(<listcomp>)
+       36    4.460    0.124    4.460    0.124 C:\Users\wilso\Programming_analytics\MPIproject\norm.py:153(<listcomp>)
+       36    4.311    0.120    4.311    0.120 C:\Users\wilso\Programming_analytics\MPIproject\norm.py:151(<listcomp>)
+ 17657863    3.913    0.000    3.913    0.000 {method 'toordinal' of 'datetime.date' objects}
+  8828980    3.065    0.000    3.065    0.000 {method 'lower' of 'str' objects}
+  8828931    2.597    0.000    2.597    0.000 {method 'keys' of 'dict' objects}
+  8821538    2.513    0.000    2.513    0.000 {method 'append' of 'list' objects}
+  8828931    2.243    0.000    2.243    0.000 {method 'end' of '_sre.SRE_Match' objects}
+        5    1.900    0.380    1.900    0.380 {method 'reduce' of 'mpi4py.MPI.Comm' objects}
+  8828931    1.727    0.000    1.727    0.000 {method 'weekday' of 'datetime.date' objects}
+       72    1.458    0.020    1.458    0.020 {method 'Read' of 'mpi4py.MPI.File' objects}
+      144    0.314    0.002    0.314    0.002 {built-in method builtins.sum}
+       72    0.284    0.004    0.284    0.004 {method 'decode' of 'bytearray' objects}
+      2/1    0.000    0.000    0.060    0.060 <frozen importlib._bootstrap>:958(_find_and_load)
+      2/1    0.000    0.000    0.060    0.060 <frozen importlib._bootstrap>:931(_find_and_load_unlocked)
+      2/1    0.000    0.000    0.059    0.059 <frozen importlib._bootstrap>:641(_load_unlocked)
+      2/1    0.000    0.000    0.059    0.059 <frozen importlib._bootstrap_external>:672(exec_module)
+        2    0.000    0.000    0.040    0.020 <frozen importlib._bootstrap_external>:743(get_code)
+        2    0.039    0.019    0.039    0.020 <frozen importlib._bootstrap_external>:830(get_data)
+      2/1    0.000    0.000    0.021    0.021 <frozen importlib._bootstrap>:197(_call_with_frames_removed)
+      2/1    0.000    0.000    0.021    0.021 {built-in method builtins.exec}
+        1    0.000    0.000    0.021    0.021 C:\ProgramData\Anaconda3\lib\_strptime.py:12(<module>)
+       12    0.015    0.001    0.016    0.001 {built-in method builtins.__build_class__}
+        1    0.000    0.000    0.016    0.016 C:\ProgramData\Anaconda3\lib\calendar.py:6(<module>)
+       83    0.007    0.000    0.008    0.000 {built-in method builtins.print}
+        2    0.001    0.000    0.008    0.004 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_distn_infrastructure.py:1702(cdf)
+        2    0.005    0.003    0.005    0.003 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_continuous_distns.py:3818(_cdf)
+        9    0.000    0.000    0.005    0.001 C:\ProgramData\Anaconda3\lib\re.py:231(compile)
+        9    0.000    0.000    0.005    0.001 C:\ProgramData\Anaconda3\lib\re.py:286(_compile)
+        3    0.000    0.000    0.004    0.001 C:\ProgramData\Anaconda3\lib\sre_compile.py:557(compile)
+        1    0.000    0.000    0.004    0.004 C:\ProgramData\Anaconda3\lib\_strptime.py:273(compile)
+        3    0.000    0.000    0.003    0.001 C:\ProgramData\Anaconda3\lib\sre_compile.py:542(_code)
+     29/3    0.000    0.000    0.003    0.001 C:\ProgramData\Anaconda3\lib\sre_compile.py:64(_compile)
+        1    0.000    0.000    0.002    0.002 C:\ProgramData\Anaconda3\lib\_strptime.py:185(__init__)
+        1    0.002    0.002    0.002    0.002 {built-in method Open}
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:861(_find_spec)
+        3    0.000    0.000    0.002    0.001 C:\ProgramData\Anaconda3\lib\sre_parse.py:845(parse)
+      188    0.001    0.000    0.002    0.000 C:\ProgramData\Anaconda3\lib\enum.py:797(__and__)
+     11/3    0.000    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:407(_parse_sub)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1149(find_spec)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1117(_get_spec)
+     22/3    0.000    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:469(_parse)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+       10    0.001    0.000    0.001    0.000 {built-in method nt.stat}
+        6    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+      566    0.001    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\encodings\cp1252.py:18(encode)
+        4    0.000    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:250(pattern)
+      396    0.000    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\enum.py:265(__call__)
+      149    0.001    0.000    0.001    0.000 {built-in method now}
+       27    0.000    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:223(_compile_charset)
+        1    0.000    0.000    0.001    0.001 C:\ProgramData\Anaconda3\lib\_strptime.py:52(__init__)
+      566    0.001    0.000    0.001    0.000 {built-in method _codecs.charmap_encode}
+      396    0.001    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\enum.py:515(__new__)
+        2    0.001    0.000    0.001    0.000 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_distn_infrastructure.py:859(_argcheck)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        8    0.000    0.000    0.000    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+       27    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:250(_optimize_charset)
+       38    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        6    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\lib\function_base.py:1963(place)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+       72    0.000    0.000    0.000    0.000 {method 'Seek' of 'mpi4py.MPI.File' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1574(shape)
+        6    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray._insert}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:100(__calc_month)
+        6    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:231(__seqToRE)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_distn_infrastructure.py:520(argsreduce)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+       26    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:58(__getitem__)
+    87/43    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      121    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:253(get)
+       50    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:246(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:92(__calc_weekday)
+      189    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:232(__next)
+    39/13    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:173(getwidth)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_distn_infrastructure.py:545(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:626(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:611(_search_registry)
+       44    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\re.py:249(escape)
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:96(closegroup)
+       14    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:77(__getitem__)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\lib\function_base.py:1912(extract)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:102(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:103(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:604(_open_registry)
+        4    0.000    0.000    0.000    0.000 {built-in method winreg.OpenKey}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:119(__calc_date_time)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:553(module_from_spec)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numerictypes.py:964(find_common_type)
+       85    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:163(__getitem__)
+       92    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:248(match)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:95(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+        3    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:482(_compile_info)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1900(any)
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\re.py:324(_subx)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:96(<listcomp>)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numerictypes.py:942(_can_coerce_all)
+       10    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\enum.py:791(__or__)
+       26    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray.array}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:146(__enter__)
+       82    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:102(fixup)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\re.py:314(_compile_repl)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:877(parse_template)
+       12    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numeric.py:414(asarray)
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1383(ravel)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(cached)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\shape_base.py:9(atleast_1d)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(_get_module_lock)
+        2    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+        8    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:84(opengroup)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:55(take)
+       51    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:171(append)
+       77    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\_methods.py:37(_any)
+       59    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 {method 'take' of 'numpy.ndarray' objects}
+        3    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:829(fix_flags)
+       14    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numeric.py:484(asanyarray)
+       93    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:57(__init__)
+       36    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:285(tell)
+        8    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+       67    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       29    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:111(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:50(_localized_month)
+        7    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:266(getuntil)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\scipy\stats\_distn_infrastructure.py:874(_open_support_mask)
+        5    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:223(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(__exit__)
+        4    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1490(nonzero)
+        5    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:294(_class_escape)
+        4    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:376(_mk_bitmap)
+       13    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:342(_escape)
+       22    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:81(groups)
+       32    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:208(_verbose_message)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:153(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       64    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:107(__calc_am_pm)
+       22    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:159(__len__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:989(_handle_fromlist)
+        4    0.000    0.000    0.000    0.000 {method 'nonzero' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:102(release)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:698(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:52(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:77(acquire)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:69(_localized_day)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:164(__calc_timezone)
+       28    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numerictypes.py:951(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\re.py:330(filter)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray.zeros}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:378(<listcomp>)
+       20    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+       52    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numerictypes.py:1015(<listcomp>)
+        8    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:388(_simple)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:441(_get_charset_prefix)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:129(Calendar)
+        2    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:72(<listcomp>)
+        4    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'Get_size' of 'mpi4py.MPI.Comm' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+      3/2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:414(_get_literal_prefix)
+        6    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_compile.py:539(isstring)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:834(__enter__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:838(__exit__)
+        3    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:76(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:33(LocaleTime)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:260(TextCalendar)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:964(expand_template)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:37(_relax_case)
+       14    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:771(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:886(addgroup)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:355(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:142(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:377(HTMLCalendar)
+        4    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        6    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:402(parent)
+        7    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(<genexpr>)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:297(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:182(TimeRE)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:135(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:140(<listcomp>)
+        5    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\_strptime.py:222(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(cb)
+        2    0.000    0.000    0.000    0.000 <string>:2(_parse_args)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:501(LocaleTextCalendar)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:532(LocaleHTMLCalendar)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:293(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:31(IllegalWeekdayError)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:55(__init__)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:74(__init__)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:489(different_locale)
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\sre_parse.py:167(__setitem__)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\site-packages\numpy\core\numerictypes.py:1016(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:24(IllegalMonthError)
+        2    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:53(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\ProgramData\Anaconda3\lib\calendar.py:141(setfirstweekday)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'group' of '_sre.SRE_Match' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:410(has_location)
+        1    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+
+
+
+C:\Users\wilso>

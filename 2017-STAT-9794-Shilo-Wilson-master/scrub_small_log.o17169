@@ -1,0 +1,104 @@
+0 Time to split file into segments 0:00:49.954962
+0 Time to split segment into blocks 0:00:49.955038
+(351588522, 0)
+(0, 'reading block 1')
+3 Time to split file into segments 0:00:49.943021
+3 Time to split segment into blocks 0:00:49.943105
+(351588471, 3)
+(3, 'reading block 1')
+2 Time to split file into segments 0:00:49.930525
+2 Time to split segment into blocks 0:00:49.930592
+(351588489, 2)
+(2, 'reading block 1')
+1 Time to split file into segments 0:00:49.940123
+1 Time to split segment into blocks 0:00:49.940209
+(351588512, 1)
+(1, 'reading block 1')
+1 Reading time 0:00:02.024973
+3 Reading time 0:00:29.110400
+2 Reading time 0:00:52.336102
+1 Signal lenght:  8829171 Noise length 10639 Percent lost 0
+1 Processing time 0:01:23.003455
+0 Reading time 0:02:15.315626
+3 Signal lenght:  8828951 Noise length 10718 Percent lost 0
+3 Processing time 0:02:42.597630
+2 Signal lenght:  8828948 Noise length 10763 Percent lost 0
+2 Processing time 0:04:55.044628
+0 Signal lenght:  8828777 Noise length 10899 Percent lost 0
+0 Processing time 0:12:01.410834
+0 To write Noise 0:00:00.118772
+1 To write Noise 0:12:51.922520
+2 To write Noise 0:08:29.641274
+3 To write Noise 0:11:05.319229
+3 To write signal 0:08:38.013282 Total Block Time 0:22:55.040556
+0 To write signal 0:08:41.667093 Total Block Time 0:22:58.512340
+1 To write signal 0:08:44.561737 Total Block Time 0:23:01.512701
+2 To write signal 0:08:47.644896 Total Block Time 0:23:04.666916
+Total Time 0:23:54.599484
+Input Time 0:02:15.315626
+Output Time 0:08:41.785865
+Processing Time 0:12:51.365872
+Sat Apr  8 00:01:36 2017    profile
+
+         17680414 function calls (17680390 primitive calls) in 683.596 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000  343.860  171.930 {method 'decode' of 'bytearray' objects}
+        2    0.000    0.000  343.860  171.930 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/encodings/utf_8.py:15(decode)
+        2  343.860  171.930  343.860  171.930 {_codecs.utf_8_decode}
+  8839859  157.371    0.000  157.371    0.000 {method 'append' of 'list' objects}
+        2   89.859   44.929   89.859   44.929 {method 'join' of 'str' objects}
+        3   50.097   16.699   50.097   16.699 {built-in method Open}
+  8839676   20.205    0.000   20.205    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+        1    6.348    6.348    6.348    6.348 {method 'reduce' of 'mpi4py.MPI.Comm' objects}
+        2    5.657    2.829    5.657    2.829 {map}
+        1    5.038    5.038    5.038    5.038 {method 'Write_ordered' of 'mpi4py.MPI.File' objects}
+        2    3.340    1.670    3.340    1.670 {method 'split' of 'unicode' objects}
+        1    1.773    1.773    1.773    1.773 {method 'Read' of 'mpi4py.MPI.File' objects}
+        1    0.020    0.020    0.020    0.020 {method 'Iread' of 'mpi4py.MPI.File' objects}
+        2    0.012    0.006    0.012    0.006 {method 'Seek_shared' of 'mpi4py.MPI.File' objects}
+        1    0.011    0.011    0.011    0.011 {method 'Iwrite_shared' of 'mpi4py.MPI.File' objects}
+        4    0.003    0.001    0.003    0.001 {open}
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/re.py:192(compile)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/re.py:230(_compile)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:567(compile)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:706(parse)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:317(_parse_sub)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:395(_parse)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:552(_code)
+      9/1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:64(_compile)
+       10    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:228(_compile_charset)
+       10    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:256(_optimize_charset)
+       66    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:212(get)
+       86    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:193(__next)
+       10    0.000    0.000    0.000    0.000 {built-in method now}
+       48    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:141(__getitem__)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:433(_compile_info)
+  309/301    0.000    0.000    0.000    0.000 {len}
+       45    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:206(match)
+     17/9    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:151(getwidth)
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:428(_simple)
+       51    0.000    0.000    0.000    0.000 {isinstance}
+        2    0.000    0.000    0.000    0.000 {method 'Seek' of 'mpi4py.MPI.File' objects}
+       34    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       32    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:137(__len__)
+       17    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:149(append)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:268(_escape)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:189(__init__)
+        8    0.000    0.000    0.000    0.000 {range}
+        1    0.000    0.000    0.000    0.000 {method 'Get_size' of 'mpi4py.MPI.Comm' objects}
+       18    0.000    0.000    0.000    0.000 {min}
+        9    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:92(__init__)
+        1    0.000    0.000    0.000    0.000 {_sre.compile}
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:145(__setitem__)
+       27    0.000    0.000    0.000    0.000 {ord}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_compile.py:546(isstring)
+        7    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:216(tell)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.0_1/lib/python2.7/sre_parse.py:67(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+

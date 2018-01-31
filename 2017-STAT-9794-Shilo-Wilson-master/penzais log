@@ -1,0 +1,753 @@
+Using username "shilo.wilson".
+
+Notice:
+  Users may not access these CUNY computer resources
+without authorization or use it for purposes beyond
+the scope of authorization. This includes attempting
+ to circumvent CUNYcomputer resource system protection
+facilities by hacking, cracking or similar activities,
+ accessing or using another person's computer account,
+and allowing another person to access or use
+the user's account. CUNY computer resources may not
+be used to gain unauthorized access to another
+computer system within or outside of CUNY.
+Users are responsible for all actions performed
+from their computer account that they permitted or
+failed to prevent by taking ordinary security precautions.
+
+Using keyboard-interactive authentication.
+Password:
+Last login: Fri Feb 24 18:01:14 2017 from 150.210.231.27
+
++------------------------------------------------------------------------------+
+|                     __  ___    __   ___                                      |
+|               |\ | /  \  |  | /  ` |__                                       |
+|               | \| \__/  |  | \__, |___                                      |
+|                                                                              |
+| ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.          |
+| This is Chizen, the gateway to the CUNY HPCC resources.      :::::::         |
+| Chizen is dedicated to interactive login on the HPC systems  :::::::         |
+| and to limited file transfers from and to them.              :::::::         |
+| It is not used for computations.                             :::::::         |
+| We are asking our users not to use Chizen for permanent      :::::::         |
+| file storage. Please treat your home directory on Chizen as  :::::::         |
+| temporary scratch space available for file transfers only.   :::::::         |
+| This space is not being backed up. After your file transfer  :::::::         |
+| to or from the production HPCC systems (Andy, Salk, Penzias, :::::::         |
+| Bob, Zeus, Karle) is complete, you are kindly asked to remove:::::::         |
+| these files from Chizen immediately.                         :::::::         |
+|                                                              :::::::         |
+| Any files more than 15 days old may automatically be DELETED :::::::         |
+| on a weekly basis."                                         .:::::::         |
+| :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::          |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+Please direct any questions to our Helpline at https://hpchelp.csi.cuny.edu
+*Log in using your HPC Account credentials.
+
+shilo.wilson@chizen:~> ssh Penzias
+
+Notice:
+  Users may not access these CUNY computer resources
+without authorization or use then for purposes beyond
+the scope of authorization. This includes attempting
+to circumvent CUNY computer resource system protection
+facilities by hacking, cracking or similar activities,
+accessing or using another user's computer account, or
+allowing another person to access or use your user
+account.
+  CUNY computer resources may not be used to gain unauthor-
+ized access to other computer system within or outside of
+the CUNY system.  Users are responsible for all actions
+performed from their computer accounts that they permitted or
+failed to prevent by taking ordinary security precautions.
+
+Password:
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+| >>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::       |
+| >>                                                                          |
+| >> PENZIAS's  programming environment defaults have been                    |
+| >> advanced to the most current software releases as                        |
+| >> described in the notice to PENZIAS's users.                              |
+| >>                                                                          |
+| >> It is recommended that you recompile and link your applications          |
+| >> as both the default compiler level and applications stack have           |
+| >> been updated.                                                            |
+| >>                                                                          |
+| >> Please open a ticket at https://hpchelp.csi.cuny.edu/                    |
+| >> if you encounter any problems.                                           |
+| >>                                                                          |
+| >>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::       |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
++-----------------------------------------------+
+|       Quotas for /global/u/shilo.wilson       |
++------------------------+----------------------+
+|   Usage:       0 GB    |   Files:       1     |
+|   Limit:  100.00 GB    |   Limit:   10000     |
+|   Avail:  100.00 GB    |   Avail:    9999     |
++------------------------+----------------------+
+
+[shilo.wilson@penzias ~]$ ls
+data-big.txt  ls  scratch_work
+[shilo.wilson@penzias ~]$ module avail
+
+---------------- /share/usr/modules/default/modulefiles_System -----------------
+autoconf/2.69              openmpi/1.8.4_gnu
+automake/1.15              openmpi/1.8.4_intel
+binutils/2.28              openmpi/2.0.2_gnu
+cbench/1.3.0(default)      openmpi/2.0.2_intel
+cbench/1.3.0_blas          pbs/12.1.0.131281
+cmake/3.6.2                pbs/13.1.2.163512(default)
+git/2.0(default)           test
+irods/3.3(default)         tmux/1.9a(default)
+m4/1.4.17
+
+--------------- /share/usr/modules/default/modulefiles_Compilers ---------------
+bazel/0.4.2                     java/1.8.0
+bazel/0.4.3                     julia/0.4.3
+bazel/0.4.5                     openmpi/1.8.4_intel
+cuda/8.0.44                     pgi/14.10
+gcc/4.7.2                       pgi/15.3(default)
+gcc/4.9                         python/2.7.12_anaconda
+gcc/5.2.0                       python/2.7.13_anaconda(default)
+gcc/6.2.0                       python/3.6.0_anaconda
+gcc/6.3.0                       python/miniconda2
+intel/13.0.1.117                python/miniconda3
+intel/15.0.1.133                r/3.3.3
+intel/17.0.2(default)
+
+------------- /share/usr/modules/default/modulefiles_Applications --------------
+abyss/1.3.7                    mpest/1.4(default)
+abyss/1.5.2(default)           mpfr/3.1.2(default)
+adcirc/50_99_07(default)       msbayes/20140305
+adcirc/50_99_07_old            mumps/5.1.1
+adda/1.2.0(default)            muscle/3.8.31
+amber/12.7.9(default)          mutect/1.1.7
+anvio/2.0.2                    namd/2.12(default)
+arpack/3.1.5_gcc               namd/2.9_plumed
+augustus/3.2.2                 ncview/2.1.7(default)
+autodock/4.2.6(default)        netcdf/4.2_cpp
+autodock_vina/1.1.2(default)   netcdf/4.3.2_c
+bamm/2.3.0                     netcdf/4.4.0_c(default)
+bamova/1.02(default)           netcdf/4.4.1_rc1_f
+bamtools/2.3.0                 netcdf/4.4.3_f
+bamtools/2.4.0(default)        nrlmol/10.0.4(default)
+bayescan/2.1                   nwchem/6.6(default)
+beagle/0.2                     octopus/4.1.1
+beagle/1.0                     octopus/4.1.2(default)
+beagle/2.0(default)            octopus/4.1.2_F
+beagle/2.1                     openblas/2.8(default)
+beagle/3.0                     opencv/3.1.2
+beast/1.7.5                    openfoam/2.3.0
+beast/1.8.0                    openmm/5.1(default)
+beast/2.1.2(default)           opensees/opensees5921(default)
+beast/2.4.4                    opensees/opensees5955
+binutils/2.27                  openshmem/1.0h(default)
+bioperl/1.6.923                openwatcom/1.9
+blast/2.3.0                    orca/4.0.0_2
+boost/1.47.0                   pargap/1.3.5(default)
+bowtie2/2.2.6(default)         perl/5.24.0
+bpp2/2.2(default)              pfft/040415
+bpp3/3.2                       phase/2.1.1(default)
+cblas/1.20.11(default)         plasma/2.5
+cgal/4.3(default)              plasma/2.8(default)
+cp2k/2.5.1(default)            plumed/1.1.2
+cp2k/3.0                       plumed/2.2
+diamond/0.7.9(default)         protobuf/3.0.0
+doxygen/2014(default)          pyrad/3.0.66(default)
+eautils/02072017               pyYAML/3.10(default)
+eclipse_ptp/eclipse_8.1.2      qespresso/6.1
+eclipse_ptp/eclipse_9.0        qiime/1.9.1_FULL_P2.7
+eigen/3.2.8                    qiime/1.9.1_FULL_P3.6
+emacs/25.1                     qiime/2.0
+exabayes/1.5                   raxml/0.1.0_ng
+examl/3.0.17                   raxml/8.2.4
+fdppdiv/20140728(default)      relion/1.3(default)
+fds_smv/6.1.11(default)        relion/1.3_gcc
+ferret/6.96(default)           repast/2.1.0(default)
+freetype/2.5.2(default)        sage/6.2(default)
+fsplit/092214(default)         sage/7.5.1
+ga/5.3(default)                samtools/1.3.1
+gamess-us/4.14.14(default)     sas/9.4(default)
+gamma/20111212(default)        scons/2.3.0(default)
+gap/4.6.5(default)             snap/11.29.13(default)
+gap/4.7.5                      snap/1.18_beta
+gatk/3.6                       sparskit/030515(default)
+gdc/1.0.1                      splatche/2.1
+gflags/2.1.2                   sprint/1.0(default)
+ghc/7.8.2(default)             sqlite/3.12.1
+glog/0.3.3                     sra/2.5.2(default)
+gnuplot/4.6.3(default)         stacks/1.23
+gpaw/1.2.0(default)            stata/12(default)
+gperf/3.0.4                    stem/2.0(default)
+gphocs/1.2.3                   structurama/2.2.14(default)
+gpu-blast/2.2.28(default)      tcl/8.6.1(default)
+gromacs/5.1.4                  tensorflow/r0.11
+help2man/1.47.3                texinfo/6.1
+hoomd/1.3.3                    tinker/6.2(default)
+hpl/2.1(default)               tmux/2.3
+humann/0.7.0(default)          trinity/2.1.0(default)
+itasser/4.2                    usearch/6.0.307
+itasser/5.0                    usearch/6.1.544
+lammps/03.07.17(default)       usearch/7.0.1090
+lapacke/3.0.3(default)         usearch/8.0.1517
+lmdb/20160810                  usearch/8.0.1623(default)
+ls-dyna/6.0.0(default)         usearch/9.0.2124
+ls-dyna/8.0.0                  util-linux/2.29
+ls-dyna/8.1.0                  valgrind/3.10.1
+maker/2.31.8                   vmd/1.9.2
+mathematica/10.0(default)      vsearch/1.0.5
+matlab/R2013a                  vsearch/1.10.2
+matlab/R2014a(default)         vsearch/1.11.1(default)
+matlab/R2015b                  wrf/3.5.0(default)
+meme/4.11.2                    xmgrace/5.1.23
+mercurial/2.8(default)         xmgrace/5.1.25(default)
+metaphlan2/2.0(default)        xplor/2.38
+minpath/1.2(default)           xplor/2.39
+
+--------------- /share/usr/modules/default/modulefiles_Libraries ---------------
+2.3.4                       liblapack/3.5.0_gnu
+arpack/3.1.5_intel(default) liblapack/3.7.0_gnu
+atlas/3.10.3                liblapack/3.7.0_intel
+boost/1.55.0                libmetis/5.1.0_gnu
+boost/1.60.0(default)       libmetis/5.1.0_intel
+boost/1.62.0                libmount/0.9
+cudnn/5.0(default)          libparmetis/4.0.3_gnu
+cudnn/5.1                   libparmetis/4.0.3_intel
+curl/7.44.0                 libpcre/8.40
+curl/7.53.1                 libpcre/8.40_gnu
+fft/2.1.5_gnu               libpcre/8.40_intel
+fft/2.1.5_intel             libpng/1.6.24
+fft/3.3.6_gnu               libpng/1.6.28
+fft/3.3.6_intel             libproj4/4.9.2_gnu
+glib/2.50                   libproj4/4.9.2_intel
+gmp/5.1.3                   libscotch/6.0.3_gnu
+gmp/6.0.0(default)          libscotch/6.0.4_intel
+gsl/1.16_gcc                libtool/2.4.6
+gsl/1.16_intel(default)     libxc/2.2.2_gnu
+lesstif/0.95.2              libxgboost/03.28.17
+libav/0.8.17                libxml2/2.9.4
+libblas/3.7.0_gnu           libxslt/1.2.29
+libblas/3.7.0_intel         libxz/5.2.2_gnu
+libbzip2/1.6.0_gnu          libxz/5.2.2_intel
+libbzip2/1.6.0_intel        motif/2.3.6
+libffi/3.2.1                readline/6.3_gnu(default)
+libglog/0.3.3               readline/6.3_intel
+libgmp/6.1.2                util-linux/2.28
+libhdf5/1.10.0(default)     zlib/1.2.11_gnu
+libint/2.3.0(default)       zlib/1.2.11_intel
+[shilo.wilson@penzias ~]$ module list
+Currently Loaded Modulefiles:
+  1) pbs/13.1.2.163512     3) openmpi/2.0.2_intel
+  2) intel/17.0.2          4) irods/3.3
+[shilo.wilson@penzias ~]$ module load python
+[shilo.wilson@penzias ~]$ module list
+Currently Loaded Modulefiles:
+  1) pbs/13.1.2.163512        5) gcc/4.9
+  2) intel/17.0.2             6) cuda/8.0.44
+  3) openmpi/2.0.2_intel      7) python/2.7.13_anaconda
+  4) irods/3.3
+[shilo.wilson@penzias ~]$ ^C
+[shilo.wilson@penzias ~]$ module load python/3.6
+python(3):ERROR:105: Unable to locate a modulefile for 'python/3.6'
+[shilo.wilson@penzias ~]$ module load python/3.6.0_anaconda
+[shilo.wilson@penzias ~]$ module drop python/2.7.13_anaconda
+cmdTrace.c(713):ERROR:104: 'drop' is an unrecognized subcommand
+cmdModule.c(411):ERROR:104: 'drop' is an unrecognized subcommand
+[shilo.wilson@penzias ~]$ module remove python/2.7.13_anaconda
+[shilo.wilson@penzias ~]$ modul list
+-bash: modul: command not found
+[shilo.wilson@penzias ~]$ module list
+Currently Loaded Modulefiles:
+  1) pbs/13.1.2.163512       5) openmpi/1.8.4_intel
+  2) intel/17.0.2            6) readline/6.3_intel
+  3) openmpi/2.0.2_intel     7) python/3.6.0_anaconda
+  4) irods/3.3
+[shilo.wilson@penzias ~]$ module load gitloaglo
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for 'gitloaglo'
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$
+[shilo.wilson@penzias ~]$ module load git
+[shilo.wilson@penzias ~]$ git remote https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[shilo.wilson@penzias ~]$ git remote origin https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[shilo.wilson@penzias ~]$ git clone https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+Cloning into '2017-STAT-9794-Shilo-Wilson'...
+
+(gnome-ssh-askpass:47436): Gtk-WARNING **: cannot open display:
+error: unable to read askpass response from '/usr/libexec/openssh/gnome-ssh-askpass'
+Username for 'https://github.com': shilowilson31
+
+(gnome-ssh-askpass:47477): Gtk-WARNING **: cannot open display:
+error: unable to read askpass response from '/usr/libexec/openssh/gnome-ssh-askpass'
+Password for 'https://shilowilson31@github.com':
+remote: Counting objects: 127, done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 127 (delta 7), reused 0 (delta 0), pack-reused 108
+Receiving objects: 100% (127/127), 484.05 KiB, done.
+Resolving deltas: 100% (60/60), done.
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  scratch_work
+[shilo.wilson@penzias ~]$ cd 2017-STAT-9794-Shilo-Wilson
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ ls
+Assignment C.pdf            HW4 Grade.txt                             Norm Overview.docx    scrub.py
+AssignmentD.py              HW5 Grade.txt                             norm.pbs              sliding window.py
+Big Data question set.docx  IO.py                                     norm.py               spark.PNG
+Bitcoin Questions.xlsx      Microsoft Windows [Version 10.0.14393]    parsing_dates.py      Twitter entities.py
+decode.py                   moments.py                                pi.py                 Twitter_entities.py
+helloworld.py               mpi_1.py                                  reading_in_chunks.py  twitter.py
+HW 1 Grade.txt              mpi_2.py                                  README.md
+HW2 Grade.txt               MPIPractice.py                            Scrub overview.docx
+HW3 Grade.txt               My First Journal, plan from here. .ipynb  scrub.pbs
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ ls
+Assignment C.pdf            HW4 Grade.txt                             Norm Overview.docx    scrub.py
+AssignmentD.py              HW5 Grade.txt                             norm.pbs              sliding window.py
+Big Data question set.docx  IO.py                                     norm.py               spark.PNG
+Bitcoin Questions.xlsx      Microsoft Windows [Version 10.0.14393]    parsing_dates.py      Twitter entities.py
+decode.py                   moments.py                                pi.py                 Twitter_entities.py
+helloworld.py               mpi_1.py                                  reading_in_chunks.py  twitter.py
+HW 1 Grade.txt              mpi_2.py                                  README.md
+HW2 Grade.txt               MPIPractice.py                            Scrub overview.docx
+HW3 Grade.txt               My First Journal, plan from here. .ipynb  scrub.pbs
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ cd  shilo.wilson
+-bash: cd: shilo.wilson: No such file or directory
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ cd scratch
+-bash: cd: scratch: No such file or directory
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ cd scratch/
+-bash: cd: scratch/: No such file or directory
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ qsub scrub.pbs
+qsub: Queue is not enabled
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ qsub scrub.pbs
+qsub: Queue is not enabled
+[shilo.wilson@penzias 2017-STAT-9794-Shilo-Wilson]$ cd
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+16459.penziasadmin.csi.cuny.edu
+[shilo.wilson@penzias ~]$ qstat 16459
+PBS Pro Server penzias.csi.cuny.edu at CUNY CSI HPC Center
+Job id            Name             User              Time Use S Queue
+----------------  ---------------- ----------------  -------- - -----
+16459.penziasadmi python_version   shilo.wilson             0 Q qlong16
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ qstat 16459
+PBS Pro Server penzias.csi.cuny.edu at CUNY CSI HPC Center
+Job id            Name             User              Time Use S Queue
+----------------  ---------------- ----------------  -------- - -----
+16459.penziasadmi python_version   shilo.wilson             0 Q qlong16
+[shilo.wilson@penzias ~]$ qsub - I - q interactive
+usage: qsub [-a date_time] [-A account_string] [-c interval]
+        [-C directive_prefix] [-e path] [-f ] [-h ] [-I [-X]] [-j oe|eo] [-J X-Y[:Z]]
+        [-k o|e|oe] [-l resource_list] [-m mail_options] [-M user_list]
+        [-N jobname] [-o path] [-p priority] [-P project] [-q queue] [-r y|n]
+        [-S path] [-u user_list] [-W otherattributes=value...]
+        [-v variable_list] [-V ] [-z] [script | -- command [arg1 ...]]
+       qsub --version
+[shilo.wilson@penzias ~]$ qsub -I -q interactive
+qsub: waiting for job 16460.penziasadmin.csi.cuny.edu to start
+#!/bin/bash
+qsub: job 16460.penziasadmin.csi.cuny.edu ready
+
+#!/bin/bash
+[shilo.wilson@compute-0-71 ~]$ #!/bin/bash
+[shilo.wilson@compute-0-71 ~]$ scrub.pbs
+-bash: scrub.pbs: command not found
+[shilo.wilson@compute-0-71 ~]$ exit
+logout
+
+qsub: job 16460.penziasadmin.csi.cuny.edu completed
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.o16459  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ cat python_version.e16459
+[shilo.wilson@penzias ~]$ cat python_version.o16459
+[shilo.wilson@penzias ~]$ cat scrub.pbs
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=1:ncpus=8
+#PBS -l place=free
+#PBS -V
+
+
+cd scratch/shilo.wilson
+
+
+python scrub.py
+[shilo.wilson@penzias ~]$ cat scrub.pbs
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=8:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+
+cd scratch/shilo.wilson
+
+
+mpirun -np 8 python scrub.py
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+16461.penziasadmin.csi.cuny.edu
+[shilo.wilson@penzias ~]$ qstat 16461
+PBS Pro Server penzias.csi.cuny.edu at CUNY CSI HPC Center
+Job id            Name             User              Time Use S Queue
+----------------  ---------------- ----------------  -------- - -----
+16461.penziasadmi python_version   shilo.wilson             0 Q qlong16
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.o16459  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ cat scrub.py
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar  5 10:31:05 2017
+
+@author: wilso
+"""
+
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Feb 26 15:57:31 2017
+
+@author: wilso
+"""
+
+from mpi4py import MPI
+import os
+import re
+import cProfile
+import pstats
+import sys
+import datetime as dt
+
+
+pr=cProfile.Profile()
+pr.enable()
+Input=dt.timedelta(0)
+Output=dt.timedelta(0)
+Proc=dt.timedelta(0)
+Starttime=dt.datetime.now()
+#OPEN REQUIRED FILES, OVERWRITE IF EXISTING
+
+f=open(sys.argv[2],'w')
+f.close
+f=open(sys.argv[2],'a')
+
+s=open(sys.argv[3],'w')
+s.close
+s=open(sys.argv[3],'a')
+
+#INITIALIZE MPI
+nprocs =(MPI.COMM_WORLD.Get_size())
+myid=MPI.Comm.Get_rank(MPI.COMM_WORLD)
+fh=MPI.File.Open(MPI.COMM_WORLD, sys.argv[1], MPI.MODE_RDONLY)
+size=MPI.File.Get_size(fh)
+
+#DETERMINE SEGMENTS
+segsize = int(size/nprocs)
+seg_start = segsize*myid
+buf=bytearray(100)
+
+if myid==nprocs-1:
+    seg_end=size
+else:
+    seg_end=seg_start+segsize-1;
+
+if myid !=0:
+    fh.Seek(seg_start)
+    fh.Iread(buf)
+    rows=buf.decode('utf-8')
+    rows=rows.split('\n')
+    offset=len(str(rows[0]))
+    seg_start+=offset+1
+
+
+
+if myid !=(nprocs-1):
+    fh.Seek(seg_end)
+    fh.Iread(buf)
+    rows=buf.decode('utf-8')
+    rows=rows.split('\n')
+    offset=len(str(rows[0]))
+    seg_end+=offset
+splitend=dt.datetime.now()
+#DETERMINE BLOCKS PER SEGMENT
+
+print(myid, 'Time to split file into segments', splitend-Starttime,flush=True)
+blocksize = 10000000
+block_starts=[seg_start]
+block_start=seg_start+blocksize
+while block_start<seg_end:
+        buf=bytearray(100)
+        fh.Seek(block_start)
+        fh.Iread(buf)
+        rows=buf.decode('utf-8')
+        rows=rows.split('\n')
+        offset=len(str(rows[0]))+1
+        adjblock_start=block_start+offset
+        block_starts.append(adjblock_start)
+        block_start+=blocksize
+block_starts.append(seg_end)
+blockendtime=dt.datetime.now()
+print(myid, 'Time to split segment into blocks', blockendtime-Starttime,flush=True)
+Proc+=(blockendtime-Starttime)
+
+
+i=0
+#COMPILE REGULAR EXPRESSION
+#THIS ONE EXPRESSION FILTERS OUT NEGATIVE VALUES, MALFORMED LINES, and EXTREME OUTLIERS
+date_exp = re.compile("[0-9]{8}:[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{6},[^-0][0-9]{2,4}\.[0-9]{0,2},[^-0][0-9]*")
+for block in block_starts [0:-1]:
+    begblock=dt.datetime.now()
+    buffersize=int(block_starts[(i+1)]-block-1)
+    print(buffersize, myid)
+    begreadtime=dt.datetime.now()
+    i=i+1
+    print(myid,'reading block %d' %(i), flush=True)
+    buf=bytearray(buffersize)
+    fh.Open
+    fh.Seek(int(block))
+    fh.Read(buf)
+    fh.Close
+    endreadtime=dt.datetime.now()
+    print(myid,'Reading time', endreadtime-begreadtime, flush=True)
+    Input+=(endreadtime-begreadtime)
+    buf=buf.decode('utf-8')
+    buf=buf.split('\n')
+
+    #TEST EACH LINE
+    noise=[]
+    signal=[]
+
+    for index,row in enumerate(buf):
+             record = row
+             if date_exp.match(row):
+                 signal.append(row)
+             else:
+                 noise.append(row)
+
+
+    print(myid, 'Signal lenght: ', len(signal), 'Noise length',len(noise),'Percent lost', len(noise)/(len(noise)+len(signal)),flush=True)
+    #WRITE SIGNAL AND NOISE TO FILE
+    signal=('%s' % os.linesep .join(map(str, signal))+os.linesep)
+    noise=('%s' % os.linesep .join(map(str, noise))+os.linesep)
+    endproctime=dt.datetime.now()
+    print(myid, 'Processing time', endproctime-endreadtime, flush=True)
+    Proc+=(endproctime-endreadtime)
+    n=bytearray(noise,encoding='utf-8')
+    nh=MPI.File.Open(MPI.COMM_WORLD, sys.argv[2],MPI.MODE_WRONLY)
+    #FILE POINTER SO NON BLOCKING WRITE CAN BE USED
+    info=MPI.File.Get_size(nh)
+    nh.Seek_shared(info)
+    nh.Iwrite_shared(n)
+    nh.Close
+    nwritetime=dt.datetime.now()
+    print(myid, 'To write Noise',nwritetime-endproctime)
+    Output+=(nwritetime-endproctime)
+    signal=bytearray(signal,encoding='utf-8')
+    sh=MPI.File.Open(MPI.COMM_WORLD, sys.argv[3],MPI.MODE_WRONLY)
+    info=MPI.File.Get_size(sh)
+    sh.Seek_shared(info)
+    sh.Write_ordered(signal)
+    endblock=dt.datetime.now()
+    print(myid, 'To write signal', endblock-nwritetime, 'Total Block Time', endblock-begblock,flush=True)
+    Output+=(endblock-nwritetime)
+f.close
+s.close
+#PRINT PROFILER DATA
+endtime=dt.datetime.now()
+totaltime=endtime-Starttime
+Total=MPI.COMM_WORLD.reduce(totaltime,MPI.MAX,root=0)
+
+if myid==0:
+    print('Total Time', Total)
+    print('Input Time', Input)
+    print('Output Time', Output)
+    print('Processing Time', Proc)
+    pr.disable()
+    pr.dump_stats('profile')
+    ps=pstats.Stats('profile',stream=sys.stdout).sort_stats('cumulative')
+    ps.print_stats()
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ cat scrub.pbs
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=8 :ncpus=1
+#PBS -l place=free
+#PBS -V
+
+
+cd scratch/shilo.wilson
+
+
+mpirun -np 8 python scrub.py data-big.txt scrub.txt noise.txt
+[shilo.wilson@penzias ~]$ cat python_version.o16461
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+qsub: directive error: -l select=8 :ncpus=1
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+qsub: directive error: -l select=8 :ncpus=1
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+qsub: Queue is not enabled
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+16463.penziasadmin.csi.cuny.edu
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.e16461  python_version.o16461  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16459  python_version.o16459  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ ls ^C
+[shilo.wilson@penzias ~]$ remove python_version.e16461
+-bash: remove: command not found
+[shilo.wilson@penzias ~]$ rm python_version.e16461
+[shilo.wilson@penzias ~]$ rmpython_version.o16459
+-bash: rmpython_version.o16459: command not found
+[shilo.wilson@penzias ~]$ rm python_version.o16459
+[shilo.wilson@penzias ~]$ rm python_version.e16459
+[shilo.wilson@penzias ~]$ rm python_version.o16461
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.o16463  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16463  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ cat python_version.e16463
+-bash: /var/spool/PBS/mom_priv/jobs/16463.penziasadmin.csi.cuny.edu.SC: /bin/bash^M: bad interpreter: No such file or directory
+[shilo.wilson@penzias ~]$ cat scrub.pbs
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=8:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+
+cd scratch/shilo.wilson
+
+
+mpirun -np 8 python scrub.py data-big.txt scrub.txt noise.txt
+[shilo.wilson@penzias ~]$ cat scrub.pbs
+#!/bin/bash
+#PBS -q production
+#PBS -N python_version
+#PBS -l select=8:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+
+cd cd $PBS_O_WORKDIR
+
+
+mpirun -np 8 python scrub.py data-big.txt scrub.txt noise.txt
+[shilo.wilson@penzias ~]$ qsub scrub.pbs
+16466.penziasadmin.csi.cuny.edu
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.o16463  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16463  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ rm  python_version.e16463  python_version.o16463
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ qstat 16466
+PBS Pro Server penzias.csi.cuny.edu at CUNY CSI HPC Center
+Job id            Name             User              Time Use S Queue
+----------------  ---------------- ----------------  -------- - -----
+16466.penziasadmi python_version   shilo.wilson             0 Q qlong16
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  data-big.txt  ls  norm.pbs  norm.py  scratch_work  scrub.pbs  scrub.py
+[shilo.wilson@penzias ~]$ git
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+See 'git help <command>' for more information on a specific command.
+[shilo.wilson@penzias ~]$ push scrub.pbs  https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+-bash: push: command not found
+[shilo.wilson@penzias ~]$ git  push scrub.pbs  https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[shilo.wilson@penzias ~]$ git remote https://github.com/Baruch-College-New-York-MFE-Program/2017-STAT-9794-Shilo-Wilson.git
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[shilo.wilson@penzias ~]$ ls
+2017-STAT-9794-Shilo-Wilson  ls        norm.py                python_version.o16466  scrub.pbs
+data-big.txt                 norm.pbs  python_version.e16466  scratch_work           scrub.py
+[shilo.wilson@penzias ~]$ cat python_version.016466
+cat: python_version.016466: No such file or directory
+[shilo.wilson@penzias ~]$ cat python_version.e16466
+-bash: /var/spool/PBS/mom_priv/jobs/16466.penziasadmin.csi.cuny.edu.SC: /bin/bash^M: bad interpreter: No such file or directory
+[shilo.wilson@penzias ~]$

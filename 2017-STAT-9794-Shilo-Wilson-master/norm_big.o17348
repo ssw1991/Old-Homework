@@ -1,0 +1,581 @@
+2 To split file into segments 0:00:28.371334
+2 To split segment into blocks 0:00:00.008702 Total number of blocks 36
+0 To split file into segments 0:00:28.343891
+1 To split file into segments 0:00:28.344202
+0 To split segment into blocks 0:00:00.007527 Total number of blocks 36
+1 To split segment into blocks 0:00:00.007681 Total number of blocks 36
+1 To read block 1 0:00:00.023035
+3 To split file into segments 0:00:07.891673
+3 To split segment into blocks 0:00:00.007486 Total number of blocks 36
+3 To read block 1 0:00:06.410087
+2 To read block 1 0:00:10.231088
+0 To read block 1 0:00:11.541622
+1 To process block 0:00:12.431921
+1 To read block 2 0:00:01.257587
+0 To process block 0:00:12.767597
+1 To process block 0:00:12.303686
+1 To read block 3 0:00:07.839126
+2 To process block 0:00:25.614218
+3 To process block 0:00:30.779237
+0 To read block 2 0:00:13.177596
+1 To process block 0:00:12.289403
+2 To read block 2 0:00:12.571595
+3 To read block 2 0:00:12.040325
+0 To process block 0:00:12.699426
+1 To read block 4 0:00:10.267816
+0 To read block 3 0:00:10.612995
+1 To process block 0:00:12.328863
+1 To read block 5 0:00:00.221416
+0 To process block 0:00:12.711801
+2 To process block 0:00:25.875000
+3 To process block 0:00:29.906938
+3 To read block 3 0:00:00.047387
+1 To process block 0:00:12.274467
+0 To read block 4 0:00:12.122755
+2 To read block 3 0:00:14.062989
+1 To read block 6 0:00:09.808142
+0 To process block 0:00:12.801411
+0 To read block 5 0:00:00.026776
+1 To process block 0:00:12.251970
+3 To process block 0:00:30.879191
+1 To read block 7 0:00:09.823180
+2 To process block 0:00:25.567856
+3 To read block 4 0:00:05.584623
+2 To read block 4 0:00:06.680168
+0 To process block 0:00:23.618020
+0 To read block 6 0:00:00.028250
+1 To process block 0:00:12.387974
+1 To read block 8 0:00:09.331330
+0 To process block 0:00:12.779855
+3 To process block 0:00:24.848701
+0 To read block 7 0:00:08.533322
+3 To read block 5 0:00:05.082334
+2 To process block 0:00:25.597441
+1 To process block 0:00:12.285418
+2 To read block 5 0:00:06.731425
+1 To read block 9 0:00:08.296247
+0 To process block 0:00:12.752210
+0 To read block 8 0:00:00.029155
+1 To process block 0:00:12.410552
+0 To process block 0:00:12.720882
+3 To process block 0:00:24.870997
+3 To read block 6 0:00:00.048820
+1 To read block 10 0:00:08.548591
+2 To process block 0:00:25.553074
+2 To read block 6 0:00:00.050362
+0 To read block 9 0:00:11.880346
+1 To process block 0:00:12.453057
+0 To process block 0:00:12.710311
+0 To read block 10 0:00:00.029516
+3 To process block 0:00:24.860596
+1 To read block 11 0:00:07.422998
+3 To read block 7 0:00:06.467698
+2 To process block 0:00:25.412585
+0 To process block 0:00:12.688673
+1 To process block 0:00:12.423812
+2 To read block 7 0:00:06.534018
+1 To read block 12 0:00:09.703509
+0 To read block 11 0:00:12.378498
+3 To process block 0:00:24.816172
+3 To read block 8 0:00:00.048967
+1 To process block 0:00:12.361158
+0 To process block 0:00:12.771032
+2 To process block 0:00:25.402687
+1 To read block 13 0:00:09.197217
+2 To read block 8 0:00:07.009958
+0 To read block 12 0:00:12.579005
+3 To process block 0:00:24.820092
+3 To read block 9 0:00:00.047600
+1 To process block 0:00:12.522318
+0 To process block 0:00:12.826814
+0 To read block 13 0:00:00.027631
+1 To read block 14 0:00:07.386448
+2 To process block 0:00:25.467442
+0 To process block 0:00:12.768359
+1 To process block 0:00:12.455228
+2 To read block 9 0:00:06.367114
+3 To process block 0:00:24.815222
+3 To read block 10 0:00:00.059838
+0 To read block 14 0:00:11.728527
+1 To read block 15 0:00:10.941586
+0 To process block 0:00:12.800387
+0 To read block 15 0:00:00.029496
+1 To process block 0:00:12.249007
+2 To process block 0:00:25.694562
+1 To read block 16 0:00:09.758119
+2 To read block 10 0:00:06.285657
+3 To process block 0:00:30.282557
+3 To read block 11 0:00:00.048631
+0 To process block 0:00:12.733131
+1 To process block 0:00:12.450358
+0 To read block 16 0:00:11.030292
+1 To read block 17 0:00:08.014061
+0 To process block 0:00:12.783118
+0 To read block 17 0:00:00.028175
+3 To process block 0:00:24.795073
+3 To read block 12 0:00:00.060000
+2 To process block 0:00:26.499084
+1 To process block 0:00:12.388048
+2 To read block 11 0:00:04.983002
+1 To read block 18 0:00:10.005518
+0 To process block 0:00:24.153896
+0 To read block 18 0:00:00.029487
+3 To process block 0:00:24.832058
+3 To read block 13 0:00:00.048893
+1 To process block 0:00:12.337578
+2 To process block 0:00:25.564428
+2 To read block 12 0:00:00.061839
+0 To process block 0:00:12.730537
+1 To read block 19 0:00:09.911705
+0 To read block 19 0:00:10.325572
+3 To process block 0:00:24.821712
+1 To process block 0:00:12.414377
+3 To read block 14 0:00:05.169452
+2 To process block 0:00:25.487814
+0 To process block 0:00:12.719026
+1 To read block 20 0:00:08.656971
+2 To read block 13 0:00:06.869667
+0 To read block 20 0:00:11.741358
+1 To process block 0:00:12.462071
+3 To process block 0:00:24.851107
+3 To read block 15 0:00:00.049040
+1 To read block 21 0:00:08.310600
+0 To process block 0:00:12.853283
+0 To read block 21 0:00:00.029110
+2 To process block 0:00:25.495605
+1 To process block 0:00:12.392772
+0 To process block 0:00:12.774034
+2 To read block 14 0:00:10.915883
+1 To read block 22 0:00:10.058957
+3 To process block 0:00:24.786829
+3 To read block 16 0:00:00.048250
+0 To read block 22 0:00:12.706156
+1 To process block 0:00:12.529873
+0 To process block 0:00:12.740941
+1 To read block 23 0:00:08.465618
+2 To process block 0:00:25.455267
+3 To process block 0:00:24.829475
+0 To read block 23 0:00:11.084696
+1 To process block 0:00:12.551283
+3 To read block 17 0:00:10.028337
+2 To read block 15 0:00:15.136149
+0 To process block 0:00:12.717661
+0 To read block 24 0:00:00.030270
+1 To read block 24 0:00:10.054335
+0 To process block 0:00:12.787588
+1 To process block 0:00:12.449488
+2 To process block 0:00:25.448215
+1 To read block 25 0:00:09.529956
+3 To process block 0:00:30.101445
+3 To read block 18 0:00:00.059665
+0 To read block 25 0:00:13.765986
+2 To read block 16 0:00:06.807808
+1 To process block 0:00:12.501912
+0 To process block 0:00:12.778293
+0 To read block 26 0:00:00.028975
+1 To read block 26 0:00:08.168054
+3 To process block 0:00:24.823261
+0 To process block 0:00:12.699900
+2 To process block 0:00:25.505801
+1 To process block 0:00:12.443896
+2 To read block 17 0:00:03.796057
+3 To read block 19 0:00:10.032284
+1 To read block 27 0:00:09.891222
+0 To read block 27 0:00:15.293714
+1 To process block 0:00:12.494508
+0 To process block 0:00:12.782019
+0 To read block 28 0:00:00.030569
+2 To process block 0:00:25.502118
+2 To read block 18 0:00:03.422400
+3 To process block 0:00:29.933760
+3 To read block 20 0:00:00.048874
+1 To read block 28 0:00:10.994317
+1 To process block 0:00:12.556967
+0 To process block 0:00:23.356915
+0 To read block 29 0:00:00.027094
+1 To read block 29 0:00:09.086105
+2 To process block 0:00:25.492665
+2 To read block 19 0:00:03.715712
+0 To process block 0:00:12.699294
+3 To process block 0:00:30.324648
+1 To process block 0:00:12.551173
+0 To read block 30 0:00:14.119969
+3 To read block 21 0:00:13.384261
+1 To read block 30 0:00:10.587693
+2 To process block 0:00:25.559802
+0 To process block 0:00:12.674871
+0 To read block 31 0:00:00.028937
+2 To read block 20 0:00:04.452964
+1 To process block 0:00:12.469378
+0 To process block 0:00:12.764206
+3 To process block 0:00:24.854497
+3 To read block 22 0:00:00.059441
+1 To read block 31 0:00:10.918095
+0 To read block 32 0:00:10.580592
+1 To process block 0:00:12.479663
+2 To process block 0:00:25.471976
+2 To read block 21 0:00:00.060692
+1 To read block 32 0:00:08.880669
+0 To process block 0:00:12.758550
+3 To process block 0:00:24.809305
+3 To read block 23 0:00:00.062710
+0 To read block 33 0:00:12.148321
+1 To process block 0:00:12.496455
+2 To process block 0:00:25.766244
+2 To read block 22 0:00:00.062519
+1 To read block 33 0:00:09.245301
+0 To process block 0:00:12.776348
+0 To read block 34 0:00:00.024466
+3 To process block 0:00:24.819192
+3 To read block 24 0:00:00.048143
+1 To process block 0:00:12.495241
+2 To process block 0:00:25.469140
+2 To read block 23 0:00:00.227196
+0 To process block 0:00:27.870586
+0 To read block 35 0:00:00.025215
+3 To process block 0:00:25.104937
+1 To read block 34 0:00:20.980666
+3 To read block 25 0:00:06.226098
+0 To process block 0:00:12.796562
+1 To process block 0:00:12.448492
+2 To process block 0:00:25.509082
+2 To read block 24 0:00:04.254459
+1 To read block 35 0:00:09.201050
+0 To read block 36 0:00:16.304457
+3 To process block 0:00:24.886818
+1 To process block 0:00:12.463373
+0 To process block 0:00:07.847515
+3 To read block 26 0:00:05.917771
+1 To read block 36 0:00:09.036198
+2 To process block 0:00:25.469285
+2 To read block 25 0:00:00.454704
+1 To process block 0:00:07.682630
+3 To process block 0:00:24.860612
+3 To read block 27 0:00:05.293651
+2 To process block 0:00:25.510807
+2 To read block 26 0:00:00.176043
+3 To process block 0:00:24.826084
+3 To read block 28 0:00:00.048458
+2 To process block 0:00:25.663666
+2 To read block 27 0:00:04.868738
+3 To process block 0:00:24.914416
+3 To read block 29 0:00:08.795396
+2 To process block 0:00:25.494369
+2 To read block 28 0:00:04.302533
+3 To process block 0:00:24.855734
+3 To read block 30 0:00:00.048566
+2 To process block 0:00:25.450552
+2 To read block 29 0:00:00.060781
+3 To process block 0:00:24.855104
+3 To read block 31 0:00:00.051737
+2 To process block 0:00:25.756913
+2 To read block 30 0:00:15.546707
+3 To process block 0:00:24.853452
+3 To read block 32 0:00:00.056723
+2 To process block 0:00:25.969109
+3 To process block 0:00:24.800592
+3 To read block 33 0:00:00.041954
+2 To read block 31 0:00:17.335753
+3 To process block 0:00:24.789499
+3 To read block 34 0:00:00.044517
+2 To process block 0:00:26.017079
+3 To process block 0:00:24.816942
+3 To read block 35 0:00:00.043004
+2 To read block 32 0:00:12.506265
+3 To process block 0:00:24.779942
+3 To read block 36 0:00:00.039091
+2 To process block 0:00:26.900246
+2 To read block 33 0:00:00.557572
+3 To process block 0:00:15.308270
+2 To process block 0:00:26.361347
+2 To read block 34 0:00:15.012476
+2 To process block 0:00:26.057566
+2 To read block 35 0:00:00.330552
+2 To process block 0:00:38.462290
+2 To read block 36 0:00:19.561703
+3 To pass statistics 0:02:14.651735
+3 Total input time 0:01:41.592626
+3 Total output time 0:00:00
+3 Total process time 0:15:23.121953
+2 To process block 0:00:15.870828
+1 To pass statistics 0:06:37.053269
+1 Total input time 0:05:19.823438
+1 Total output time 0:00:00
+1 Total process time 0:07:22.496051
+0 To pass statistics 0:06:53.053111
+The data set does not come from a normal distribution. Its skewness is -0.15 and its kurtosis is 1302.75
+The average log return is 1.4389085574977075e-07
+There were 35785993 observations
+The standard deviation is 1.618043733968797e-05
+0 To compute final statistics 0:00:00.000988 Total time 0:19:47.732820
+0 Total input time 0:04:04.108901
+0 Total output time 0:00:00
+0 Total process time 0:15:15.276600
+2 To pass statistics 0:00:00.012226
+2 Total input time 0:03:52.004548
+2 Total output time 0:00:00
+2 Total process time 0:15:27.404865
+Sat Apr  8 12:15:01 2017    profile
+
+         259677842 function calls (259677705 primitive calls) in 895.357 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        5  413.053   82.611  413.053   82.611 {method 'reduce' of 'mpi4py.MPI.Comm' objects}
+  8954493    8.791    0.000  367.542    0.000 norm.py:40(date_parse)
+  8954493   16.400    0.000  358.750    0.000 {built-in method strptime}
+  8954493   25.480    0.000  342.338    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:562(_strptime_datetime)
+  8954493  180.736    0.000  316.858    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:321(_strptime)
+  8954495    7.501    0.000   58.310    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:29(_getlang)
+  8954495    9.571    0.000   50.809    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/locale.py:565(getlocale)
+       72   48.386    0.672   48.386    0.672 {method 'decode' of 'bytearray' objects}
+  8954493   35.330    0.000   35.330    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+  8954495    7.725    0.000   29.418    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/locale.py:462(_parse_localename)
+        1   28.311   28.311   28.311   28.311 {built-in method Open}
+  8954495   14.083    0.000   21.693    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/locale.py:379(normalize)
+  8954493   17.923    0.000   17.923    0.000 {method 'groupdict' of '_sre.SRE_Match' objects}
+  8954495   11.820    0.000   11.820    0.000 {built-in method _locale.setlocale}
+  8954565    9.541    0.000    9.541    0.000 {method 'split' of 'str' objects}
+ 26863511    8.899    0.000    8.899    0.000 {method 'get' of 'dict' objects}
+  8954457    7.502    0.000    7.502    0.000 {built-in method math.log10}
+  8954493    6.967    0.000    6.967    0.000 {method 'total_seconds' of 'datetime.timedelta' objects}
+       42    6.028    0.144    6.028    0.144 {built-in method builtins.sorted}
+26863890/26863883    6.014    0.000    6.014    0.000 {built-in method builtins.len}
+ 17909398    4.743    0.000    4.743    0.000 {built-in method builtins.isinstance}
+ 17908987    3.675    0.000    3.675    0.000 {method 'toordinal' of 'datetime.date' objects}
+  8954542    2.891    0.000    2.891    0.000 {method 'lower' of 'str' objects}
+  8954493    2.307    0.000    2.307    0.000 {method 'keys' of 'dict' objects}
+       36    2.103    0.058    2.103    0.058 norm.py:153(<listcomp>)
+       36    2.075    0.058    2.075    0.058 norm.py:152(<listcomp>)
+  8954493    1.959    0.000    1.959    0.000 {method 'end' of '_sre.SRE_Match' objects}
+  8947004    1.855    0.000    1.855    0.000 {method 'append' of 'list' objects}
+  8954493    1.679    0.000    1.679    0.000 {method 'weekday' of 'datetime.date' objects}
+       36    1.273    0.035    1.273    0.035 norm.py:151(<listcomp>)
+       72    0.412    0.006    0.412    0.006 {method 'Read' of 'mpi4py.MPI.File' objects}
+      144    0.289    0.002    0.289    0.002 {built-in method builtins.sum}
+       72    0.013    0.000    0.013    0.000 {method 'Seek' of 'mpi4py.MPI.File' objects}
+      2/1    0.000    0.000    0.012    0.012 <frozen importlib._bootstrap>:958(_find_and_load)
+      2/1    0.000    0.000    0.012    0.012 <frozen importlib._bootstrap>:931(_find_and_load_unlocked)
+      2/1    0.000    0.000    0.011    0.011 <frozen importlib._bootstrap>:641(_load_unlocked)
+      2/1    0.000    0.000    0.011    0.011 <frozen importlib._bootstrap_external>:672(exec_module)
+      2/1    0.000    0.000    0.010    0.010 <frozen importlib._bootstrap>:197(_call_with_frames_removed)
+      2/1    0.000    0.000    0.010    0.010 {built-in method builtins.exec}
+        1    0.000    0.000    0.010    0.010 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:12(<module>)
+        1    0.000    0.000    0.007    0.007 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:6(<module>)
+       12    0.007    0.001    0.007    0.001 {built-in method builtins.__build_class__}
+       83    0.006    0.000    0.006    0.000 {built-in method builtins.print}
+        9    0.000    0.000    0.004    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:231(compile)
+        9    0.000    0.000    0.004    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:286(_compile)
+        3    0.000    0.000    0.003    0.001 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:557(compile)
+        1    0.000    0.000    0.003    0.003 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:273(compile)
+        3    0.000    0.000    0.002    0.001 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:542(_code)
+     29/3    0.000    0.000    0.002    0.001 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:64(_compile)
+        1    0.000    0.000    0.002    0.002 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:185(__init__)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:861(_find_spec)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1149(find_spec)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1117(_get_spec)
+        6    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+      149    0.001    0.000    0.001    0.000 {built-in method now}
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:743(get_code)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+      188    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/enum.py:797(__and__)
+        3    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:845(parse)
+       10    0.001    0.000    0.001    0.000 {built-in method posix.stat}
+     11/3    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:407(_parse_sub)
+     22/3    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:469(_parse)
+        4    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:250(pattern)
+        2    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:1702(cdf)
+      396    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/enum.py:265(__call__)
+       27    0.000    0.000    0.001    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:223(_compile_charset)
+        1    0.000    0.000    0.001    0.001 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:52(__init__)
+        2    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+        2    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+      396    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/enum.py:515(__new__)
+       27    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:250(_optimize_charset)
+       38    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:100(__calc_month)
+        6    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:231(__seqToRE)
+       26    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:58(__getitem__)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:92(__calc_weekday)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:520(argsreduce)
+    89/45    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+      189    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:232(__next)
+      121    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:253(get)
+       14    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:77(__getitem__)
+       50    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:246(<genexpr>)
+    39/13    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:173(getwidth)
+       32    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:96(closegroup)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:103(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:545(<listcomp>)
+       44    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:249(escape)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:102(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:553(module_from_spec)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:95(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+       85    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:163(__getitem__)
+        4    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/lib/function_base.py:1912(extract)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numerictypes.py:964(find_common_type)
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:324(_subx)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:119(__calc_date_time)
+       92    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:248(match)
+        1    0.000    0.000    0.000    0.000 {method 'Get_size' of 'mpi4py.MPI.Comm' objects}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:314(_compile_repl)
+        3    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:482(_compile_info)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:96(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numerictypes.py:942(_can_coerce_all)
+       10    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/enum.py:791(__or__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:146(__enter__)
+       26    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray.array}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:877(parse_template)
+       32    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:3818(_cdf)
+       82    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:102(fixup)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/fromnumeric.py:1900(any)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(cached)
+       12    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numeric.py:414(asarray)
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/fromnumeric.py:1383(ravel)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/shape_base.py:9(atleast_1d)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:69(_localized_day)
+        2    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(_get_module_lock)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+       51    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:171(append)
+        3    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:829(fix_flags)
+       93    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:164(__calc_timezone)
+       14    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numeric.py:484(asanyarray)
+        6    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/lib/function_base.py:1963(place)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:859(_argcheck)
+        8    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:84(opengroup)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/_methods.py:37(_any)
+       59    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       77    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+       36    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:285(tell)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:50(_localized_month)
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        5    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:223(__init__)
+       29    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:111(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(__exit__)
+       67    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:376(_mk_bitmap)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:72(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:135(__init__)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:208(_verbose_message)
+       68    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/fromnumeric.py:55(take)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+        8    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+        7    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:266(getuntil)
+        5    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:294(_class_escape)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:153(__exit__)
+        4    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray._insert}
+       13    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:342(_escape)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method time.tzset}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:77(acquire)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:52(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:107(__calc_am_pm)
+        4    0.000    0.000    0.000    0.000 {method 'take' of 'numpy.ndarray' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:989(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:102(release)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:57(__init__)
+       22    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:81(groups)
+        4    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/fromnumeric.py:1490(nonzero)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/re.py:330(filter)
+       28    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numerictypes.py:951(<listcomp>)
+       22    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:159(__len__)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:874(_open_support_mask)
+        8    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+       18    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'nonzero' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:378(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:441(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:964(expand_template)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+       20    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:388(_simple)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:886(addgroup)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:129(Calendar)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numerictypes.py:1015(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:698(find_spec)
+       52    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:377(HTMLCalendar)
+        6    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:539(isstring)
+        3    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:771(find_spec)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:834(__enter__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:838(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:182(TimeRE)
+      3/2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_compile.py:414(_get_literal_prefix)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:355(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:142(__init__)
+        8    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:74(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray.zeros}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:260(TextCalendar)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/fromnumeric.py:1574(shape)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:293(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:297(__enter__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:402(parent)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:41(_relax_case)
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        6    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:141(setfirstweekday)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:140(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:33(LocaleTime)
+        5    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/_strptime.py:222(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(cb)
+        4    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:24(IllegalMonthError)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:31(IllegalWeekdayError)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:55(__init__)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:489(different_locale)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:501(LocaleTextCalendar)
+        1    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:532(LocaleHTMLCalendar)
+        2    0.000    0.000    0.000    0.000 <string>:2(_parse_args)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:410(has_location)
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        7    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 {method 'group' of '_sre.SRE_Match' objects}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/calendar.py:53(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/site-packages/numpy/core/numerictypes.py:1016(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /share/usr/compilers/python/anaconda/4.3.1_1/lib/python3.6/sre_parse.py:167(__setitem__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        3    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+
+

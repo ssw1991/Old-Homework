@@ -1,0 +1,7 @@
+For Scrub   Commandline arguments are 
+  file to read 
+   file to write noise
+   file to write signal
+   
+for norm commandline arguments are
+  file to read (ideally signal from scrub)
